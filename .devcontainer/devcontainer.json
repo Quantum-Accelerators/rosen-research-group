@@ -1,0 +1,13 @@
+{
+  "name": "Rosen Research Group website",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "postCreateCommand": "npm ci",
+  "postStartCommand": "nohup npm run dev -- --host 0.0.0.0 > /tmp/rosen-astro.log 2>&1 &",
+  "forwardPorts": [4321],
+  "portsAttributes": {
+    "4321": {
+      "label": "Rosen Research Group preview",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
