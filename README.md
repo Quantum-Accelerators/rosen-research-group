@@ -48,6 +48,8 @@ The static site is generated in `dist/`.
 
 GitHub Actions runs `npm ci` and a complete production build with the latest Node.js release for every pull request, including Dependabot updates. A dependency pull request should not be merged unless the build check passes. Astro 7 requires Node.js 22.12 or newer.
 
+Each successful run includes a `built-website` artifact containing the generated `dist/` directory. Open the workflow run on GitHub and download it from the **Artifacts** section. For an interactive private browser preview, use the repository’s Codespaces configuration.
+
 ## Publishing
 
 The repository is private and the website is not currently configured for public deployment. GitHub Pages should remain disabled until the production launch is approved.

@@ -33,3 +33,11 @@ jobs:
 
       - name: Build production website
         run: npm run build
+
+      - name: Save built website
+        uses: actions/upload-artifact@v4
+        with:
+          name: built-website
+          path: dist/
+          if-no-files-found: error
+          retention-days: 14
