@@ -33,4 +33,17 @@ const publications = defineCollection({
   }),
 });
 
-export const collections = { news, members, publications };
+const pages = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/pages' }),
+});
+
+const opportunities = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/opportunities' }),
+  schema: z.object({
+    label: z.string(),
+    title: z.string(),
+    order: z.number(),
+  }),
+});
+
+export const collections = { news, members, publications, pages, opportunities };

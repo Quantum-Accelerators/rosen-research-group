@@ -1,0 +1,23 @@
+---
+heroEyebrow: "Rosen Research Group · Princeton University"
+heroTitle: "Quantum chemistry,"
+heroAccent: "pushed to its limits."
+heroIntro: "We use quantum-mechanical simulations and machine learning to uncover the fundamental mechanisms governing reactivity and stability in solid-state materials."
+researchEyebrow: "Research program"
+researchTitle: "From electronic structure to stability and decomposition."
+researchText: "We study solid-state materials pushed to their electronic, thermodynamic, and kinetic limits. Our goal is to understand what new reaction chemistry becomes possible and what governs a material’s stability and decomposition."
+areasTitle: "Reactivity, stability, and reliable simulation."
+areas:
+  - label: "Research question 01"
+    title: "Electronic structure beyond the atom"
+    text: "What new reaction chemistry becomes possible in solid-state materials with exotic electronic configurations?"
+  - label: "Research question 02"
+    title: "Stability and decomposition"
+    text: "What governs the stability of a material and the series of reactions that lead to its decomposition?"
+  - label: "Crosscutting effort"
+    title: "Accurate and reliable interatomic potentials"
+    text: "Developing large-scale datasets, benchmarks, and open-source software infrastructure to improve machine-learned interatomic potentials for computational materials science."
+latestTitle: "News from the group."
+joinTitle: "Curious minds welcome."
+joinText: "We welcome prospective graduate students, postdoctoral researchers, and Princeton undergraduates who want to work at the intersection of chemistry, computation, and materials science."
+---

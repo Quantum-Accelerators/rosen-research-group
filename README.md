@@ -15,11 +15,15 @@ The local preview is available at `http://localhost:4321`.
 
 Routine site content is stored as individual Markdown files under `src/content/`:
 
+- `pages/` — home, research, teaching, software, handbook, positions, Prof. Rosen, and shared header/footer content
+- `opportunities/` — graduate, postdoctoral, and undergraduate position information
 - `news/` — one file per news item; the article text goes below the frontmatter
 - `members/` — one file per group member; biographical text goes below the frontmatter
 - `publications/` — one file per publication, numbered to match the publication list
 
 Edit the values between the `---` lines and, where applicable, the Markdown text beneath them. The `order` field controls the display order for news and members. Publication files use `section: "submitted"` or `section: "published"`.
+
+For ordinary content updates, you should not need to edit any `.astro` file.
 
 ## Private GitHub preview
 
