@@ -11,6 +11,16 @@ npm run dev
 
 The local preview is available at `http://localhost:4321`.
 
+## Editing content
+
+Routine site content is stored as individual Markdown files under `src/content/`:
+
+- `news/` — one file per news item; the article text goes below the frontmatter
+- `members/` — one file per group member; biographical text goes below the frontmatter
+- `publications/` — one file per publication, numbered to match the publication list
+
+Edit the values between the `---` lines and, where applicable, the Markdown text beneath them. The `order` field controls the display order for news and members. Publication files use `section: "submitted"` or `section: "published"`.
+
 ## Private GitHub preview
 
 Authorized collaborators can preview the site without publishing it:

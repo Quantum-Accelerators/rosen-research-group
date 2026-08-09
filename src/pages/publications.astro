@@ -1,10 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageHero from '../components/PageHero.astro';
-import publications from '../data/publications.json';
+import { getCollection } from 'astro:content';
 
-const submitted = publications.filter((publication) => publication.number >= 44);
-const published = publications.filter((publication) => publication.number < 44);
+const publications = (await getCollection('publications')).map((entry) => entry.data).sort((a, b) => b.number - a.number);
+const submitted = publications.filter((publication) => publication.section === 'submitted');
+const published = publications.filter((publication) => publication.section === 'published');
 const journalNames = [
   'Advances in Neural Information Processing Systems (NeurIPS)',
   'International Conference on Learning Representations (ICLR)',

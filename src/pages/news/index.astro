@@ -1,4 +1,5 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro'; import PageHero from '../../components/PageHero.astro'; import news from '../../data/news.json';
+import BaseLayout from '../../layouts/BaseLayout.astro'; import PageHero from '../../components/PageHero.astro'; import { getCollection } from 'astro:content';
+const news = (await getCollection('news')).sort((a, b) => a.data.order - b.data.order);
 ---
-<BaseLayout title="News"><PageHero title="News" intro="Awards, publications, talks, new group members, and moments from life in the Rosen Research Group."/><section class="section white"><div class="container news-list">{news.map(item=><a class="news-row" href={item.path}><time>{item.date || item.path.split('/')[2]}</time><h2>{item.title}</h2><span aria-hidden="true">→</span></a>)}</div></section></BaseLayout>
+<BaseLayout title="News"><PageHero title="News" intro="Awards, publications, talks, new group members, and moments from life in the Rosen Research Group."/><section class="section white"><div class="container news-list">{news.map(item=><a class="news-row" href={`/news/${item.id}`}><time>{item.data.date || item.id.split('/')[0]}</time><h2>{item.data.title}</h2><span aria-hidden="true">→</span></a>)}</div></section></BaseLayout>
