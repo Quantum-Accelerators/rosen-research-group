@@ -46,7 +46,7 @@ The static site is generated in `dist/`.
 
 ## Automated testing
 
-GitHub Actions runs `npm ci` and a complete production build with Node.js 20 and 22 for every pull request, including Dependabot updates. A dependency pull request should not be merged unless both build checks pass.
+GitHub Actions runs `npm ci` and a complete production build with the latest Node.js release for every pull request, including Dependabot updates. A dependency pull request should not be merged unless the build check passes. Astro 7 requires Node.js 22.12 or newer.
 
 ## Publishing
 
