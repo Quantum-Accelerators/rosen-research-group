@@ -44,6 +44,10 @@ npm run build
 
 The static site is generated in `dist/`.
 
+## Automated testing
+
+GitHub Actions runs `npm ci` and a complete production build with Node.js 20 and 22 for every pull request, including Dependabot updates. A dependency pull request should not be merged unless both build checks pass.
+
 ## Publishing
 
 The repository is private and the website is not currently configured for public deployment. GitHub Pages should remain disabled until the production launch is approved.
