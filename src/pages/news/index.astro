@@ -1,0 +1,4 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import PageHero from '../../components/PageHero.astro'; import news from '../../data/news.json';
+---
+<BaseLayout title="News"><PageHero title="News" intro="Awards, publications, talks, new group members, and moments from life in the Rosen Research Group."/><section class="section white"><div class="container news-list">{news.map(item=><a class="news-row" href={item.path}><time>{item.date || item.path.split('/')[2]}</time><h2>{item.title}</h2><span aria-hidden="true">→</span></a>)}</div></section></BaseLayout>

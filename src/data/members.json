@@ -1,0 +1,12 @@
+[
+  {"slug":"julia-baratta","name":"Julia Baratta","role":"Graduate Student (G3)","affiliation":"Chemical and Biological Engineering","email":"jb8648@princeton.edu","about":["B.S.E. Chemical Engineering, Tulane University"],"image":"julia-baratta.jpg"},
+  {"slug":"sihoon-choi","name":"Sihoon Choi","role":"Moore Foundation Postdoctoral Fellow","affiliation":"Center for Statistics and Machine Learning","email":"sc4997@princeton.edu","about":["Ph.D. Chemical and Biomolecular Engineering, Georgia Institute of Technology"],"image":"sihoon-choi.jpeg"},
+  {"slug":"blake-dallmann","name":"Blake Dallmann","role":"Graduate Student (G3)","affiliation":"Chemical and Biological Engineering","email":"bd8619@princeton.edu","about":["B.S. Chemical Engineering/Chemistry, University of Wisconsin, Madison"],"image":"blake-dallmann.jpg"},
+  {"slug":"isabella-furrick","name":"Isabella Furrick","role":"Graduate Student (G2)","affiliation":"Chemical and Biological Engineering","email":"if3598@princeton.edu","about":["M.S. Materials Science and Engineering, Stevens Institute of Technology","B.E. Chemical Engineering, Stevens Institute of Technology"],"image":"isabella-furrick.jpeg"},
+  {"slug":"naisargi-goyal","name":"Naisargi Goyal","role":"Graduate Student (G3)","affiliation":"Chemical and Biological Engineering","email":"ng8249@princeton.edu","about":["B.S. Chemical Engineering, Georgia Institute of Technology"],"image":"naisargi-goyal.jpg"},
+  {"slug":"jaehong-russell-kwon","name":"Jaehong (“Russell”) Kwon","role":"Graduate Student (G4)","affiliation":"","email":"","about":["Co-advised by Prof. David Graves","B.S. Chemical Engineering, University of Illinois Urbana-Champaign"],"image":"jaehong-kwon.jpeg"},
+  {"slug":"hananeh-oliaei","name":"Hananeh Oliaei","role":"Postdoctoral Research Associate","affiliation":"Chemical and Biological Engineering","email":"hanao2@princeton.edu","about":["Ph.D. Mechanical Engineering, University of Illinois Urbana-Champaign"],"image":"hananeh-oliaei.jpg"},
+  {"slug":"aryan-saha","name":"Aryan Saha","role":"ECE ’27","affiliation":"","email":"aryansaha@princeton.edu","about":[],"image":"aryan-saha.png"},
+  {"slug":"anthony-shen","name":"Anthony Shen","role":"CBE ’28","affiliation":"","email":"anthony.shen@princeton.edu","about":[],"image":"anthony-shen.png"},
+  {"slug":"yuliang-shi","name":"Yuliang Shi","role":"Postdoctoral Research Associate","affiliation":"Chemical and Biological Engineering","email":"","about":["Ph.D. Chemistry, New Jersey Institute of Technology"],"image":"yuliang-shi.jpg"}
+]

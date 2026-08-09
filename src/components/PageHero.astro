@@ -1,0 +1,4 @@
+---
+const { eyebrow='Rosen Research Group', title, intro, showIntro = false } = Astro.props;
+---
+<section class="page-hero"><div class="container"><p class="eyebrow">{eyebrow}</p><h1>{title}</h1>{showIntro && intro && <p class="lede">{intro}</p>}</div></section>

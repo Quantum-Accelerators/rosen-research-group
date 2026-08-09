@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import publications from '../data/publications.json';
+
+const submitted = publications.filter((publication) => publication.number >= 44);
+const published = publications.filter((publication) => publication.number < 44);
+const journalNames = [
+  'Advances in Neural Information Processing Systems (NeurIPS)',
+  'International Conference on Learning Representations (ICLR)',
+  'Angewandte Chemie International Edition',
+  'Assessment and Evaluation in Higher Education',
+  'Molecular Systems Design & Engineering',
+  'Current Opinion in Chemical Engineering',
+  'Journal of the American Chemical Society',
+  'Physical Chemistry Chemical Physics',
+  'npj Computational Materials',
+  'Journal of Computational Chemistry',
+  'Journal of Open Source Software',
+  'Journal of Physical Chemistry C',
+  'Journal of Chemical Physics',
+  'Nature Chemical Engineering',
+  'Nature Communications',
+  'ACS Central Science',
+  'Crystal Growth and Design',
+  'Fluid Phase Equilibria',
+  'Digital Discovery',
+  'Chemistry of Materials',
+  'Combustion and Flame',
+  'Nature Chemistry',
+  'Nature Materials',
+  'Chemical Science',
+  'Advanced Materials',
+  'Chem Catalysis',
+  'ACS Catalysis',
+  'Journal of Physics B',
+  'J. Am. Chem. Soc.',
+  'MRS Bulletin',
+  'Patterns',
+  'Matter',
+  'Science'
+].sort((a, b) => b.length - a.length);
+
+const formatCitation = (citation: string) => {
+  let formatted = citation.replaceAll('=', '†').replaceAll('†', '<sup>†</sup>');
+  for (const journal of journalNames) formatted = formatted.replaceAll(journal, `<em>${journal}</em>`);
+  formatted = formatted.replace(/ — (.+)$/, '<span class="publication-note">$1</span>');
+  return formatted;
+};
+---
+<BaseLayout title="Publications">
+  <PageHero title="Publications" />
+  <section class="section white">
+    <div class="container">
+      <div class="publication-tools">
+        <a class="button" href="https://scholar.google.com/citations?hl=en&user=lHBjgLsAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar ↗</a>
+        <p class="legend"><b>Notation:</b> * corresponding author · † equal contribution</p>
+      </div>
+
+      <section class="publication-section" aria-labelledby="submitted-heading">
+        <h2 id="submitted-heading">Submitted Articles and Pre-Prints</h2>
+        <div class="publication-list">
+          {submitted.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication.citation)} /></article>)}
+        </div>
+      </section>
+
+      <section class="publication-section" aria-labelledby="published-heading">
+        <h2 id="published-heading">Published and In Press</h2>
+        <div class="publication-list">
+          {published.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication.citation)} /></article>)}
+        </div>
+      </section>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .publication-tools{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding-bottom:2.5rem;border-bottom:1px solid var(--line)}
+  .legend{margin:0;color:var(--muted);font-size:.85rem;text-align:right}
+  .publication-section{padding-top:clamp(3.5rem,7vw,6rem)}
+  .publication-section h2{font-size:clamp(2.2rem,4vw,4rem);margin-bottom:2rem}
+  .publication-list{border-top:1px solid var(--line)}
+  .publication h3 a{text-decoration-thickness:1px;text-underline-offset:4px}
+  .publication h3 a:hover{color:var(--orange)}
+  .publication :global(sup){font-size:.67em;line-height:0;vertical-align:super;margin-left:.04em}
+  .publication :global(em){font-style:italic;color:var(--ink)}
+  .publication :global(.publication-note){display:block;margin-top:.45rem;color:var(--ink);font-size:.92em;font-weight:500}
+  @media(max-width:700px){.publication-tools{align-items:flex-start;flex-direction:column}.legend{text-align:left}}
+</style>

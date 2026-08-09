@@ -1,0 +1,7 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'; import PageHero from '../../components/PageHero.astro'; import news from '../../data/news.json';
+export function getStaticPaths(){return news.map(item=>({params:{slug:item.path.replace('/news/','')},props:{item}}))}
+const { item } = Astro.props;
+const paragraphs=item.text.split(/\n\n+/).filter(Boolean);
+---
+<BaseLayout title={item.title}><PageHero eyebrow={item.date || item.path.split('/')[2]} title={item.title}/><section class="section white"><article class="container prose news-article">{paragraphs.map((p:string)=><p>{p}</p>)}<p><a class="text-link" href="/news">← Back to all news</a></p></article></section></BaseLayout><style>.news-article{font-family:var(--serif);font-size:clamp(1.25rem,2.1vw,1.65rem);line-height:1.55}.news-article p:last-child{font-family:var(--sans);font-size:1rem;margin-top:3rem}</style>

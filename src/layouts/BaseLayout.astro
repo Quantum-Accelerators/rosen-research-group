@@ -1,0 +1,46 @@
+---
+import '../styles/global.css';
+const { title = 'Rosen Research Group', description = 'Quantum chemistry, machine learning, and porous materials at Princeton University.' } = Astro.props;
+const nav = [
+  ['Research','/research'],['Prof. Rosen','/people/andrew-s-rosen'],['Members','/members'],
+  ['Publications','/publications'],['Software','/software'],['Handbook','/handbook'],
+  ['Teaching','/teaching'],['Positions','/positions'],['News','/news']
+];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#151515" />
+    <link rel="icon" href="/images/quacc-duck.png" />
+    <title>{title === 'Rosen Research Group' ? title : `${title} — Rosen Research Group`}</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="utility"><a href="https://www.princeton.edu/">Princeton University</a><span>Department of Chemical &amp; Biological Engineering</span></div>
+      <div class="nav-shell">
+        <a class="brand" href="/"><img src="/images/quacc-duck.png" alt="" /><span>Rosen <b>Research Group</b></span></a>
+        <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
+        <nav aria-label="Main navigation">
+          {nav.map(([label,href]) => <a class:list={{active:path===href || path.startsWith(href+'/')}} href={href}>{label}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer>
+      <div><a class="footer-brand" href="/">Rosen Research Group</a><p>Quantum-chemical engineers at Princeton University.</p><address>Rm. F286, SEAS CBE</address></div>
+      <div><h2>Explore</h2><a href="/research">Research</a><a href="/members">People</a><a href="/publications">Publications</a><a href="/news">News</a></div>
+      <div><h2>Connect</h2><a href="https://github.com/Quantum-Accelerators">GitHub ↗</a><a href="/positions">Join the group</a></div>
+      <div class="footer-legal"><p>© {new Date().getFullYear()} The Trustees of Princeton University</p><nav aria-label="Princeton policies"><a href="https://inclusive.princeton.edu/about/our-commitment-equal-opportunity-and-non-discrimination">Diversity &amp; Non-Discrimination</a><a href="https://accessibility.princeton.edu/help">Accessibility Help</a></nav></div>
+    </footer>
+    <style>footer{grid-template-columns:2fr 1fr 1fr}footer address{font-style:normal;color:#888;font-size:.85rem;margin-top:.8rem}.footer-legal{grid-column:1/-1;border-top:1px solid #333;padding-top:1.25rem;display:flex;justify-content:space-between;gap:1rem;color:#777;font-size:.7rem}.footer-legal p{margin:0}.footer-legal nav{display:flex;gap:1.25rem}.footer-legal a{color:#888;margin:0}.footer-legal a:hover{color:#ccc}@media(max-width:800px){footer{grid-template-columns:1fr 1fr}.footer-legal{flex-direction:column}.footer-legal nav{flex-wrap:wrap}}@media(max-width:600px){footer{grid-template-columns:1fr}}</style>
+    <script is:inline>
+      const button=document.querySelector('.menu-button'); const nav=document.querySelector('.nav-shell nav');
+      button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));nav?.classList.toggle('open',!open)});
+    </script>
+  </body>
+</html>
