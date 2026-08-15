@@ -22,9 +22,7 @@ In this role, he leads the Rosen Research Group, which uses quantum-mechanical s
 
 Additionally, the group develops and applies computational methods that make it possible to go from electrons to complex processes describing the stability and decomposition mechanisms of solid-state materials.
 
-Andrew is particularly passionate about open-source science and is a developer or maintainer for many widely adopted software packages and databases in the computational materials science community, including the Atomic Simulation Environment, Pymatgen, the Materials Project, the Quantum MOF Database, and his dedicated group code, the Quantum Accelerator. Andrew has received numerous awards and honors, including multiple Commendations for Outstanding Teaching at Princeton.
-
-He has also been named a Breakthrough Energy Explorer Fellow and CAS Future Leader. Prior to starting at Princeton, Andrew earned his Ph.D. in Chemical and Biological Engineering at Northwestern University and was a Miller Research Fellow in the Department of Materials Science and Engineering at the University of California, Berkeley.
+Andrew is particularly passionate about open-source science and is a developer or maintainer for many widely adopted software packages and databases in the computational materials science community, including the Atomic Simulation Environment, Pymatgen, the Materials Project, the Quantum MOF Database, and his dedicated group code, the Quantum Accelerator. Andrew has received numerous awards and honors, including multiple Commendations for Outstanding Teaching at Princeton. He has also been named a Breakthrough Energy Explorer Fellow and CAS Future Leader. Prior to starting at Princeton, Andrew earned his Ph.D. in Chemical and Biological Engineering at Northwestern University and was a Miller Research Fellow in the Department of Materials Science and Engineering at the University of California, Berkeley.
 
 ### Education
 

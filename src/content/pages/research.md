@@ -26,7 +26,7 @@ areas:
     theme: "dark"
     imageFirst: false
   - label: "Crosscutting area"
-    title: "Accurate and reliable machine-learned simulation"
+    title: "Machine-learned interatomic potentials"
     paragraphs:
       - "Machine-learned interatomic potentials extend quantum-mechanical accuracy toward larger length and time scales, but their reliability depends on the data, benchmarks, and computational infrastructure behind them."
       - "We develop training datasets, experimentally grounded benchmarks, higher-fidelity models, and reproducible open-source workflows for the broader materials modeling community."
@@ -34,6 +34,4 @@ areas:
     imageAlt: "Computational materials science workflow"
     theme: "white"
     imageFirst: true
-    buttonLabel: "Explore our software"
-    buttonUrl: "/software"
 ---
