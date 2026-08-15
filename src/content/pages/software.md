@@ -9,7 +9,7 @@ softwareText: "QuAcc is a flexible, high-throughput computational materials scie
 quaccUrl: "https://github.com/Quantum-Accelerators/quacc"
 softwareImage: "/images/quacc-logo.png"
 softwareImageAlt: "QuAcc logo"
-dataTitle: "Data for discovery."
+dataTitle: "Datasets for Machine Learning"
 dataText: "We curate quantum-mechanical datasets that make metal–organic framework research easier to reproduce and extend."
 datasets:
   - label: "QMOF and QMOF-Thermo Database"

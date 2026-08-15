@@ -55,10 +55,10 @@ const formatCitation = (citation: string) => {
       <div class="publication-tools">
         <a class="button" href="https://scholar.google.com/citations?hl=en&user=lHBjgLsAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar ↗</a>
       </div>
-      <p class="legend"><b>Notation:</b> * corresponding author · † equal contribution</p>
 
       <section class="publication-section" aria-labelledby="submitted-heading">
         <h2 id="submitted-heading">Submitted Articles and Pre-Prints</h2>
+        <p class="legend"><b>Notation:</b> * corresponding author · † equal contribution</p>
         <div class="publication-list">
           {submitted.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication.citation)} /></article>)}
         </div>
@@ -75,8 +75,8 @@ const formatCitation = (citation: string) => {
 </BaseLayout>
 
 <style>
-  .publication-tools{display:flex;align-items:center;justify-content:center;padding-bottom:2.5rem;border-bottom:1px solid var(--line)}
-  .legend{margin:1rem 0 0;color:var(--muted);font-size:.85rem}
+  .publication-tools{display:flex;align-items:center;justify-content:center;padding-bottom:2.5rem}
+  .legend{margin:-.75rem 0 1.5rem;color:var(--muted);font-size:.85rem}
   .publication-section{padding-top:clamp(3.5rem,7vw,6rem)}
   .publication-section h2{font-size:clamp(2.2rem,4vw,4rem);margin-bottom:2rem}
   .publication-list{border-top:1px solid var(--line)}

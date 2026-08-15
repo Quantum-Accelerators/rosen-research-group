@@ -23,6 +23,10 @@ links:
     url: "https://github.com/Andrew-S-Rosen"
   - label: "YouTube"
     url: "https://www.youtube.com/@Andrew_S_Rosen"
+  - label: "Bluesky"
+    url: "https://bsky.app/profile/andrewrosen.bsky.social"
+  - label: "X"
+    url: "https://x.com/Andrew_S_Rosen"
 cvUrl: "/documents/rosen_cv.pdf"
 ---
 
