@@ -1,6 +1,6 @@
 ---
 title: "Handbook"
-logisticsTitle: "Logistics"
+logisticsTitle: "Group Logistics"
 logisticsText: "Logistics for how the Rosen Group is run, together with practical how-to guides, live in our public group handbook."
 handbookUrl: "https://rosengroup.slite.page/p/a5o5edzOXesjc8/Rosen-Group-Handbook"
 valuesTitle: "Shared Values"
