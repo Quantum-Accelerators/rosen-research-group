@@ -33,6 +33,9 @@ jobs:
       - name: Build website
         run: npm run build
 
+      - name: Make root-relative links work on the project site
+        run: node scripts/prepare-pages.mjs
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
         with:
