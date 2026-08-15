@@ -4,12 +4,23 @@ Astro-based website for the Rosen Research Group at Princeton University.
 
 ## Local development
 
+Install Node.js 22.12 or newer and npm. From the repository root, install the exact dependency versions recorded in `package-lock.json` and start Astro's development server:
+
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
-The local preview is available at `http://localhost:4321`.
+Open `http://localhost:4321` in a browser. The development server updates the page as files are edited. Stop it with `Ctrl+C`.
+
+To test the production build locally:
+
+```sh
+npm run build
+npm run preview
+```
+
+The production preview also opens at `http://localhost:4321` by default. The generated static site is stored in `dist/`.
 
 ## Editing content
 
@@ -24,30 +35,30 @@ Edit Markdown values between the `---` lines and, where applicable, the text ben
 
 For ordinary content updates, you should not need to edit any `.astro` file.
 
-## Private GitHub preview
+## Previewing a branch on GitHub
 
-Authorized collaborators can preview the site without publishing it:
+Authorized collaborators can use GitHub Codespaces to view any branch without publishing the website:
 
-1. Open this repository on GitHub.
-2. Select **Code**, then **Codespaces**.
-3. Select **Create codespace on main**.
-4. Wait for setup to finish. The private website preview opens automatically.
+1. Open the branch or pull request to preview on GitHub.
+2. Select **Code** and then **Codespaces**.
+3. Select the **…** menu and **New with options** if you need to choose a branch; otherwise select **Create codespace** from the branch page.
+4. Confirm the desired branch and create the Codespace.
+5. Wait for setup to finish. Dependencies are installed with `npm ci`, the development server starts automatically, and the forwarded port 4321 preview should open.
+6. If the preview does not open, select the **Ports** tab in the Codespace, find port **4321**, and select **Open in Browser**.
 
-The preview uses port 4321 and remains private to the person who created the Codespace. Each collaborator can create their own preview from the private repository.
-
-## Production build
-
-```sh
-npm run build
-```
-
-The static site is generated in `dist/`.
+The forwarded preview remains private unless its port visibility is deliberately changed. Each collaborator can create an independent preview from the private repository.
 
 ## Automated testing
 
 GitHub Actions runs `npm ci` and a complete production build with the latest Node.js release for every pull request, including Dependabot updates. A dependency pull request should not be merged unless the build check passes. Astro 7 requires Node.js 22.12 or newer.
 
-Each successful run includes a `built-website` artifact containing the generated `dist/` directory. Open the workflow run on GitHub and download it from the **Artifacts** section. For an interactive private browser preview, use the repository’s Codespaces configuration.
+Each successful run includes a `built-website` artifact containing the generated `dist/` directory:
+
+1. Open the repository's **Actions** tab on GitHub.
+2. Open the relevant **Website CI** run for the branch or pull request.
+3. Download **built-website** from the **Artifacts** section.
+
+The artifact contains static files rather than a hosted interactive preview. Use Codespaces for browser-based review.
 
 ## Publishing
 
