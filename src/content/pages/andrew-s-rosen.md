@@ -6,6 +6,15 @@ image: "/images/andrew-rosen.jpg"
 office: "SEAS-CBE, Rm. F292"
 phone: "609-258-6154"
 email: "asrosen@princeton.edu"
+assistant:
+  name: "Kaleigh Lane"
+  url: "https://rosen.cbe.princeton.edu/people/kaleigh-lane"
+affiliations:
+  - "Princeton Materials Institute"
+  - "Princeton Institute for Computational Science and Engineering"
+  - "Center for Statistics and Machine Learning"
+  - "Andlinger Center for Energy and the Environment"
+  - "PPPL Computational Sciences Department"
 links:
   - label: "LinkedIn"
     url: "https://www.linkedin.com/in/andrew-s-rosen/"
