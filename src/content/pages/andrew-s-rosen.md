@@ -10,6 +10,7 @@ assistant:
   name: "Kaleigh Lane"
   url: "https://rosen.cbe.princeton.edu/people/kaleigh-lane"
 affiliations:
+  - "Chemical and Biological Engineering"
   - "Princeton Materials Institute"
   - "Princeton Institute for Computational Science and Engineering"
   - "Center for Statistics and Machine Learning"

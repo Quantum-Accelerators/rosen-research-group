@@ -8,7 +8,7 @@ const page = (await getEntry('pages', 'home'))!.data as any;
 <BaseLayout>
   <section class="hero">
     <div class="hero-image"></div><div class="hero-shade"></div>
-    <div class="hero-copy"><p class="eyebrow">{page.heroEyebrow}</p><h1>{page.heroTitle}<br/><em>{page.heroAccent}</em></h1><p>{page.heroIntro}</p><a class="button" href="/research">Explore our research <span>→</span></a></div>
+    <div class="hero-copy"><p class="eyebrow">{page.heroEyebrow}</p><h1>{page.heroTitle}{page.heroAccent && <><br/><em>{page.heroAccent}</em></>}</h1><p>{page.heroIntro}</p><a class="button" href="/research">Explore our research <span>→</span></a></div>
   </section>
   <section class="section white overview"><div class="container grid-2"><div><p class="eyebrow">{page.researchEyebrow}</p><h2>{page.researchTitle}</h2></div><div class="prose"><p>{page.researchText}</p></div></div></section>
   <section class="section research-map"><div class="container"><div class="section-head"><div><p class="eyebrow">Research framework</p><h2>{page.areasTitle}</h2></div></div><div class="cards">{page.areas.map((area:any)=><article class="card"><span class="number">{area.label}</span><h3>{area.title}</h3><p>{area.text}</p></article>)}</div></div></section>
