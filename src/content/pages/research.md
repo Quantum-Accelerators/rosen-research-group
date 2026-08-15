@@ -10,8 +10,7 @@ areas:
   - label: "Research area 01"
     title: "Electronic structure beyond the atom"
     paragraphs:
-      - "We investigate how unusual electronic configurations in solid-state materials give rise to forms of chemical reactivity that are difficult to anticipate from conventional atom-centered intuition."
-      - "Quantum-mechanical calculations and machine learning allow us to connect electronic structure with chemical bonding, reaction pathways, and atomistic dynamics."
+      - "We investigate how unusual electronic configurations in solid-state materials give rise to forms of chemical reactivity that are difficult to anticipate from conventional atom-centered intuition. Quantum-mechanical calculations and machine learning allow us to connect electronic structure with chemical bonding, reaction pathways, and atomistic dynamics."
     image: "/images/electronic-states.png"
     imageAlt: "Electronic states in a porous solid-state material"
     theme: "light"
@@ -19,8 +18,7 @@ areas:
   - label: "Research area 02"
     title: "Thermodynamic and kinetic stability"
     paragraphs:
-      - "We study what determines whether a solid-state material remains stable under realistic conditions and what sequence of reactions drives its transformation or decomposition."
-      - "Our work combines electronic-structure calculations, molecular dynamics, machine-learned interatomic potentials, and free-energy methods to describe metastability, finite-temperature behavior, and reactive processes."
+      - "We study what determines whether a solid-state material remains stable under realistic conditions and what sequence of reactions drives its transformation or decomposition. Our work combines electronic-structure calculations, molecular dynamics, machine-learned interatomic potentials, and free-energy methods to describe metastability, finite-temperature behavior, and reactive processes."
     image: "/images/research-cover.png"
     imageAlt: "Atomistic simulation of solid-state material stability"
     theme: "dark"
@@ -28,8 +26,7 @@ areas:
   - label: "Crosscutting area"
     title: "Machine-learned interatomic potentials"
     paragraphs:
-      - "Machine-learned interatomic potentials extend quantum-mechanical accuracy toward larger length and time scales, but their reliability depends on the data, benchmarks, and computational infrastructure behind them."
-      - "We develop training datasets, experimentally grounded benchmarks, higher-fidelity models, and reproducible open-source workflows for the broader materials modeling community."
+      - "Machine-learned interatomic potentials extend quantum-mechanical accuracy toward larger length and time scales, but their reliability depends on the data, benchmarks, and computational infrastructure behind them. We develop training datasets, experimentally grounded benchmarks, higher-fidelity models, and reproducible open-source workflows for the broader materials modeling community."
     image: "/images/computational-science.png"
     imageAlt: "Computational materials science workflow"
     theme: "white"

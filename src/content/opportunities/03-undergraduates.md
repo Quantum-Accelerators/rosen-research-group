@@ -8,4 +8,3 @@ Projects are regularly available for Princeton undergraduates, often for course 
 
 Email Prof. Rosen with a résumé or CV and the areas that interest you.
 
-[Email Prof. Rosen](mailto:asrosen@princeton.edu)

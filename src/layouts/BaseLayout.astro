@@ -37,6 +37,7 @@ const path = Astro.url.pathname;
       <div class="footer-legal"><p>© {new Date().getFullYear()} The Trustees of Princeton University</p><nav aria-label="Princeton policies"><a href={site.diversityUrl}>Diversity &amp; Non-Discrimination</a><a href={site.accessibilityUrl}>Accessibility Help</a></nav></div>
     </footer>
     <style>footer{grid-template-columns:2fr 1fr 1fr}footer address{font-style:normal;color:#888;font-size:.85rem;margin-top:.8rem}.footer-legal{grid-column:1/-1;border-top:1px solid #333;padding-top:1.25rem;display:flex;justify-content:space-between;gap:1rem;color:#777;font-size:.7rem}.footer-legal p{margin:0}.footer-legal nav{display:flex;gap:1.25rem}.footer-legal a{color:#888;margin:0}.footer-legal a:hover{color:#ccc}@media(max-width:800px){footer{grid-template-columns:1fr 1fr}.footer-legal{flex-direction:column}.footer-legal nav{flex-wrap:wrap}}@media(max-width:600px){footer{grid-template-columns:1fr}}</style>
+    <style is:global>.prose .button{color:var(--ink)}</style>
     <script is:inline>
       const button=document.querySelector('.menu-button'); const nav=document.querySelector('.nav-shell nav');
       button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));nav?.classList.toggle('open',!open)});

@@ -1,7 +1,7 @@
 ---
 heroEyebrow: "Rosen Research Group · Princeton University"
 heroTitle: "Quantum-chemical engineering"
-heroAccent: ""
+heroAccent: "and machine learning"
 heroIntro: "We use quantum-mechanical simulations and machine learning to uncover the mechanisms governing reactivity and stability in solid-state materials."
 researchEyebrow: "Research program"
 researchTitle: "Reactivity and stability in solid-state materials."
