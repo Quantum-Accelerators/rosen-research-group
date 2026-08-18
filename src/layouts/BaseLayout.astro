@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import '../styles/accessibility.css';
 import { getEntry } from 'astro:content';
 const site = (await getEntry('pages', 'site'))!.data as any;
 const { title = site.brand, description = site.description } = Astro.props;
@@ -23,13 +24,16 @@ const path = Astro.url.pathname;
       <div class="utility"><a href={site.universityUrl}>{site.universityLabel}</a><span>{site.department}</span></div>
       <div class="nav-shell">
         <a class="brand" href="/"><img src="/images/quacc-duck.png" alt="" /><span>{brandLead} <b>{brandRest.join(' ')}</b></span></a>
-        <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
-        <nav aria-label="Main navigation">
-          {nav.map((item:any) => <a class:list={{active:path===item.url || path.startsWith(item.url+'/')}} href={item.url}>{item.label}</a>)}
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">Menu</button>
+        <nav id="main-navigation" aria-label="Main navigation">
+          {nav.map((item:any) => {
+            const active = path === item.url || path.startsWith(item.url + '/');
+            return <a class:list={{ active }} aria-current={active ? 'page' : undefined} href={item.url}>{item.label}</a>;
+          })}
         </nav>
       </div>
     </header>
-    <main id="main"><slot /></main>
+    <main id="main" tabindex="-1"><slot /></main>
     <footer>
       <div><a class="footer-brand" href="/">{site.brand}</a><p>{site.footerText}</p><address>{site.address}</address></div>
       <div><h2>Explore</h2><a href="/research">Research</a><a href="/members">People</a><a href="/publications">Publications</a><a href="/news">News</a></div>
@@ -40,7 +44,11 @@ const path = Astro.url.pathname;
     <style is:global>.prose .button{color:var(--ink)}</style>
     <script is:inline>
       const button=document.querySelector('.menu-button'); const nav=document.querySelector('.nav-shell nav');
-      button?.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));nav?.classList.toggle('open',!open)});
+      const setMenuOpen=(open)=>{button?.setAttribute('aria-expanded',String(open));button?.setAttribute('aria-label',open?'Close navigation':'Open navigation');nav?.classList.toggle('open',open)};
+      button?.addEventListener('click',()=>setMenuOpen(button.getAttribute('aria-expanded')!=='true'));
+      nav?.addEventListener('click',(event)=>{if(event.target.closest('a'))setMenuOpen(false)});
+      document.addEventListener('keydown',(event)=>{if(event.key==='Escape'&&button?.getAttribute('aria-expanded')==='true'){setMenuOpen(false);button.focus()}});
     </script>
   </body>
 </html>
+
