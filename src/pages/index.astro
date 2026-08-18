@@ -18,8 +18,7 @@ const baseUrl = import.meta.env.BASE_URL;
       <a class="button" href="/research">Explore our research <span>→</span></a>
     </div>
   </section>
-  <section class="section white overview"><div class="container grid-2"><div><p class="eyebrow">{page.researchEyebrow}</p><h2>{page.researchTitle}</h2></div><div class="prose"><p>{page.researchText}</p></div></div></section>
-  <section class="section research-map"><div class="container"><div class="section-head"><div><p class="eyebrow">Research framework</p><h2>{page.areasTitle}</h2></div></div><div class="cards">{page.areas.map((area:any)=><article class="card"><span class="number">{area.label}</span><h3>{area.title}</h3><p>{area.text}</p></article>)}</div></div></section>
+  <section class="section research-map"><div class="container"><div class="section-head"><div><p class="eyebrow">Research Program</p><h2>{page.areasTitle}</h2></div></div><div class="cards">{page.areas.map((area:any)=><article class="card"><span class="number">{area.label}</span><h3>{area.title}</h3><p>{area.text}</p></article>)}</div></div></section>
   <section class="section dark"><div class="container"><div class="grid-2"><div><p class="eyebrow">Latest</p><h2>{page.latestTitle}</h2></div><div class="news-dark">{news.slice(0,5).map(item=><a href={item.path}><time>{item.date}</time><span>{item.title}</span><b>↗</b></a>)}</div></div><p style="margin-top:2rem"><a class="button ghost" href="/news">View all news</a></p></div></section>
   <section class="section"><div class="container callout grid-2"><div><p class="eyebrow" style="color:#fff">Join us</p><h2>{page.joinTitle}</h2></div><div><p>{page.joinText}</p><a class="button ghost" href="/positions">View open opportunities →</a></div></div></section>
 </BaseLayout>
