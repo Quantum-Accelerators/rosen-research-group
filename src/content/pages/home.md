@@ -6,7 +6,7 @@ heroIntro: "We use quantum-mechanical simulations and machine learning to uncove
 researchEyebrow: "Research program"
 researchTitle: "Reactivity and stability in solid-state materials."
 researchText: "We study how unusual electronic configurations create new reactivity and what governs material stability and decomposition under realistic conditions."
-areasTitle: "Research areas"
+areasTitle: "Core research areas"
 areas:
   - label: "Research Question 01"
     title: "Electronic structure and emergent reactivity"
@@ -14,7 +14,7 @@ areas:
   - label: "Research Question 02"
     title: "Stability and decomposition"
     text: "What governs the stability of a material and the series of reactions that lead to its decomposition?"
-  - label: "Crosscutting effort"
+  - label: "Crosscutting Effort"
     title: "Machine-learned interatomic potentials"
     text: "We build datasets, benchmarks, models, and open-source software that make machine-learned interatomic potentials more reliable."
 latestTitle: "News from the group."
