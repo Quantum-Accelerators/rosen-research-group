@@ -72,28 +72,28 @@ footer h2 {
 }
 
 @media (min-width: 851px) {
-  .approach {
+  main .section.approach {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
-  .approach-intro {
+  main .approach .approach-intro {
     padding-bottom: 1.5rem;
   }
 
-  .question-grid {
+  main .approach .question-grid {
     padding-bottom: 1.25rem;
   }
 
-  .research-question {
+  main .approach .research-question {
     padding: 1.25rem;
   }
 
-  .research-question span {
+  main .approach .research-question span {
     margin-bottom: 0.75rem;
   }
 
-  .crosscutting {
+  main .approach .crosscutting {
     padding: 1rem 1.25rem;
   }
 }
