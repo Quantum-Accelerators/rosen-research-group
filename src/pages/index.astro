@@ -4,11 +4,12 @@ import { getEntry } from 'astro:content';
 import news from '../data/news.json';
 
 const page = (await getEntry('pages', 'home'))!.data as any;
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout>
   <section class="hero">
-    <img class="hero-image" src="/images/holder-exterior.jpg" alt="" fetchpriority="high" />
+    <img class="hero-image" src={`${baseUrl}images/holder-exterior.jpg`} alt="" fetchpriority="high" />
     <div class="hero-shade"></div>
     <div class="hero-copy">
       <p class="eyebrow">{page.heroEyebrow}</p>
