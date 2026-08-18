@@ -22,7 +22,7 @@ const baseUrl = import.meta.env.BASE_URL;
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
-      <div class="utility"><a href={site.universityUrl}>{site.universityLabel}</a><span>{site.department}</span></div>
+      <div class="utility"><a href={site.universityUrl}>{site.universityLabel}</a><a href={site.departmentUrl}>{site.department}</a></div>
       <div class="nav-shell">
         <a class="brand" href="/"><img src={`${baseUrl}/images/quacc-duck.png`} alt="" /><span>{brandLead} <b>{brandRest.join(' ')}</b></span></a>
         <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">Menu</button>
