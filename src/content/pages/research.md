@@ -1,11 +1,11 @@
 ---
 title: "Research"
 intro: "We develop and apply quantum-mechanical simulations and machine learning to understand reactivity and stability in solid-state materials."
-approach: "Our research program is organized around two questions at the intersection of chemical engineering and materials science."
+approach: "Our research program is organized around two major questions at the intersection of chemical engineering and materials science."
 questions:
   - "What new reaction chemistry becomes possible in materials with exotic electronic configurations?"
   - "What governs the stability of a material and the series of reactions that lead to its decomposition?"
-crosscutting: "Across both areas, we develop the datasets, benchmarks, machine-learning models, and open-source software needed for accurate and reliable simulation across the computational materials science community."
+crosscutting: "Across both areas, we develop the datasets, benchmarks, machine learning models, and open-source software needed for accurate and reliable simulation across the computational materials science community."
 areas:
   - label: "Research area 01"
     title: "Electronic structure beyond the atom"
@@ -32,3 +32,4 @@ areas:
     theme: "white"
     imageFirst: true
 ---
+

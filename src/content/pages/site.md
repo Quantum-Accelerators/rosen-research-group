@@ -3,6 +3,7 @@ description: "Quantum chemistry, machine learning, and porous materials at Princ
 universityLabel: "Princeton University"
 universityUrl: "https://www.princeton.edu/"
 department: "Department of Chemical & Biological Engineering"
+departmentUrl: "https://cbe.princeton.edu/"
 brand: "Rosen Research Group"
 footerText: "Quantum-chemical engineers at Princeton University."
 address: "Rm. F286, SEAS CBE"
@@ -20,3 +21,4 @@ navigation:
   - { label: "Positions", url: "/positions" }
   - { label: "News", url: "/news" }
 ---
+

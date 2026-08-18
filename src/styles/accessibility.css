@@ -1,0 +1,80 @@
+:root {
+  --orange: #a94f00;
+  --orange-on-dark: #ff9b50;
+  --button-orange: #e47b24;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #2166d1;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+main:focus {
+  outline: none;
+}
+
+.skip {
+  top: -5rem;
+  color: #111;
+  font-weight: 600;
+}
+
+.nav-shell nav a:hover,
+.nav-shell nav a.active {
+  border-color: var(--orange-on-dark);
+}
+
+.eyebrow {
+  font-weight: 700;
+}
+
+.dark .eyebrow,
+.page-hero .eyebrow,
+.hero .eyebrow,
+footer h2 {
+  color: var(--orange-on-dark);
+}
+
+.button {
+  justify-content: center;
+  min-height: 44px;
+  background: var(--button-orange);
+}
+
+.menu-button {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.footer-legal,
+.footer-legal a {
+  color: #aaa !important;
+}
+
+.online-links a {
+  white-space: nowrap;
+}
+
+.portrait-home {
+  display: block;
+  width: 92%;
+  margin-inline: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+

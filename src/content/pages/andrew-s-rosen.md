@@ -8,7 +8,7 @@ phone: "609-258-6154"
 email: "asrosen@princeton.edu"
 assistant:
   name: "Kaleigh Lane"
-  url: "https://rosen.cbe.princeton.edu/people/kaleigh-lane"
+  url: "https://cbe.princeton.edu/people/kaleigh-lane"
 affiliations:
   - "Chemical and Biological Engineering"
   - "Princeton Materials Institute"
@@ -39,3 +39,4 @@ Andrew is particularly passionate about open-source science and is a developer o
 - Miller Research Fellow, University of California, Berkeley (2021–2024)
 - Ph.D. in Chemical Engineering, Northwestern University (2021)
 - B.S. in Chemical Engineering, Tufts University (2015)
+

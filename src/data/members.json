@@ -60,7 +60,7 @@
     "name": "Jaehong (“Russell”) Kwon",
     "role": "Graduate Student (G4)",
     "affiliation": "",
-    "email": "",
+    "email": "jk9808@princeton.edu",
     "about": [
       "Co-advised by Prof. David Graves",
       "B.S. Chemical Engineering, University of Illinois Urbana-Champaign"
@@ -81,7 +81,7 @@
   {
     "slug": "aryan-saha",
     "name": "Aryan Saha",
-    "role": "ECE ’27",
+    "role": "Undergraduate (ECE ’27)",
     "affiliation": "",
     "email": "aryansaha@princeton.edu",
     "about": [],
@@ -90,7 +90,7 @@
   {
     "slug": "anthony-shen",
     "name": "Anthony Shen",
-    "role": "CBE ’28",
+    "role": "Undergraduate (CBE ’28)",
     "affiliation": "",
     "email": "anthony.shen@princeton.edu",
     "about": [],
@@ -108,3 +108,4 @@
     "image": "yuliang-shi.jpg"
   }
 ]
+
