@@ -73,16 +73,16 @@ footer h2 {
 
 @media (min-width: 851px) {
   main .section.approach {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 2rem;
   }
 
   main .approach .approach-intro {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
   }
 
   main .approach .question-grid {
-    padding-bottom: 1.25rem;
+    padding-bottom: 1rem;
   }
 
   main .approach .research-question {
@@ -94,7 +94,7 @@ footer h2 {
   }
 
   main .approach .crosscutting {
-    padding: 1rem 1.25rem;
+    padding: 0.75rem 1.25rem;
   }
 }
 
