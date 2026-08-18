@@ -37,6 +37,14 @@ footer h2 {
   color: var(--orange-on-dark);
 }
 
+.page-hero {
+  padding: clamp(2.25rem, 4vw, 3.5rem) 0 clamp(2rem, 3.5vw, 3rem);
+}
+
+.page-hero h1 {
+  font-size: clamp(2.75rem, 5vw, 4.5rem);
+}
+
 .button {
   justify-content: center;
   min-height: 44px;
@@ -61,6 +69,33 @@ footer h2 {
   display: block;
   width: 92%;
   margin-inline: auto;
+}
+
+@media (min-width: 851px) {
+  main .section.approach {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  main .approach .approach-intro {
+    padding-bottom: 1.25rem;
+  }
+
+  main .approach .question-grid {
+    padding-bottom: 1rem;
+  }
+
+  main .approach .research-question {
+    padding: 1.25rem;
+  }
+
+  main .approach .research-question span {
+    margin-bottom: 0.75rem;
+  }
+
+  main .approach .crosscutting {
+    padding: 0.75rem 1.25rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
