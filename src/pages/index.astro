@@ -5,14 +5,41 @@ import news from '../data/news.json';
 
 const page = (await getEntry('pages', 'home'))!.data as any;
 ---
+
 <BaseLayout>
   <section class="hero">
-    <div class="hero-image"></div><div class="hero-shade"></div>
-    <div class="hero-copy"><p class="eyebrow">{page.heroEyebrow}</p><h1>{page.heroTitle}{page.heroAccent && <><br/><em>{page.heroAccent}</em></>}</h1><p>{page.heroIntro}</p><a class="button" href="/research">Explore our research <span>→</span></a></div>
+    <img class="hero-image" src="/images/holder-exterior.jpg" alt="" fetchpriority="high" />
+    <div class="hero-shade"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">{page.heroEyebrow}</p>
+      <h1>{page.heroTitle}{page.heroAccent && <><br/><em>{page.heroAccent}</em></>}</h1>
+      <p>{page.heroIntro}</p>
+      <a class="button" href="/research">Explore our research <span>→</span></a>
+    </div>
   </section>
   <section class="section white overview"><div class="container grid-2"><div><p class="eyebrow">{page.researchEyebrow}</p><h2>{page.researchTitle}</h2></div><div class="prose"><p>{page.researchText}</p></div></div></section>
   <section class="section research-map"><div class="container"><div class="section-head"><div><p class="eyebrow">Research framework</p><h2>{page.areasTitle}</h2></div></div><div class="cards">{page.areas.map((area:any)=><article class="card"><span class="number">{area.label}</span><h3>{area.title}</h3><p>{area.text}</p></article>)}</div></div></section>
   <section class="section dark"><div class="container"><div class="grid-2"><div><p class="eyebrow">Latest</p><h2>{page.latestTitle}</h2></div><div class="news-dark">{news.slice(0,5).map(item=><a href={item.path}><time>{item.date}</time><span>{item.title}</span><b>↗</b></a>)}</div></div><p style="margin-top:2rem"><a class="button ghost" href="/news">View all news</a></p></div></section>
   <section class="section"><div class="container callout grid-2"><div><p class="eyebrow" style="color:#fff">Join us</p><h2>{page.joinTitle}</h2></div><div><p>{page.joinText}</p><a class="button ghost" href="/positions">View open opportunities →</a></div></div></section>
 </BaseLayout>
-<style>.hero{min-height:68vh;position:relative;display:flex;align-items:flex-end;color:#fff;background:#191a18}.hero-image{position:absolute;inset:0;background:url('/images/holder-exterior.jpg') center/cover}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,13,11,.92) 0%,rgba(12,13,11,.68) 56%,rgba(12,13,11,.24) 100%)}.hero-copy{position:relative;max-width:1240px;width:100%;margin:auto;padding:clamp(5rem,8vw,7.5rem) clamp(1.2rem,4vw,3rem)}.hero-copy h1{max-width:980px}.hero-copy h1 em{font-weight:400;color:#f0a15b}.hero-copy>p:not(.eyebrow){font-size:clamp(1rem,1.35vw,1.18rem);line-height:1.6;max-width:700px;color:#e8e6e1;margin:1.7rem 0 2rem}.overview{border-bottom:1px solid var(--line)}.section-head{display:flex;justify-content:space-between}.research-map .section-head{margin-bottom:clamp(2.2rem,4vw,3.5rem)}.research-map .card{padding:clamp(1.5rem,2.5vw,2.1rem)}.research-map .card h3{font-size:clamp(1.4rem,1.8vw,1.8rem);line-height:1.18;margin:1rem 0 .75rem}.research-map .card p{font-size:.98rem;line-height:1.65}.news-dark a{display:grid;grid-template-columns:8rem 1fr auto;gap:1rem;color:#fff;text-decoration:none;padding:1.1rem 0;border-bottom:1px solid #3a3a37}.news-dark time{font-size:.72rem;color:#aaa;text-transform:uppercase}.news-dark b{color:var(--orange)}@media(max-width:700px){.hero{min-height:640px}.news-dark a{grid-template-columns:1fr auto}.news-dark time{grid-column:1}.news-dark span{grid-column:1}.news-dark b{grid-column:2;grid-row:1/3}}</style>
+
+<style>
+  .hero{min-height:68vh;position:relative;display:flex;align-items:flex-end;color:#fff;background:#191a18}
+  .hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,13,11,.92) 0%,rgba(12,13,11,.68) 56%,rgba(12,13,11,.24) 100%)}
+  .hero-copy{position:relative;max-width:1240px;width:100%;margin:auto;padding:clamp(5rem,8vw,7.5rem) clamp(1.2rem,4vw,3rem)}
+  .hero-copy h1{max-width:980px}
+  .hero-copy h1 em{font-weight:400;color:#f0a15b}
+  .hero-copy>p:not(.eyebrow){font-size:clamp(1rem,1.35vw,1.18rem);line-height:1.6;max-width:700px;color:#e8e6e1;margin:1.7rem 0 2rem}
+  .overview{border-bottom:1px solid var(--line)}
+  .section-head{display:flex;justify-content:space-between}
+  .research-map .section-head{margin-bottom:clamp(2.2rem,4vw,3.5rem)}
+  .research-map .card{padding:clamp(1.5rem,2.5vw,2.1rem)}
+  .research-map .card h3{font-size:clamp(1.4rem,1.8vw,1.8rem);line-height:1.18;margin:1rem 0 .75rem}
+  .research-map .card p{font-size:.98rem;line-height:1.65}
+  .news-dark a{display:grid;grid-template-columns:8rem 1fr auto;gap:1rem;color:#fff;text-decoration:none;padding:1.1rem 0;border-bottom:1px solid #3a3a37}
+  .news-dark time{font-size:.72rem;color:#aaa;text-transform:uppercase}
+  .news-dark b{color:var(--orange-on-dark)}
+  @media(max-width:700px){.hero{min-height:640px}.news-dark a{grid-template-columns:1fr auto}.news-dark time{grid-column:1}.news-dark span{grid-column:1}.news-dark b{grid-column:2;grid-row:1/3}}
+</style>
+
