@@ -1,65 +1,47 @@
 # Rosen Research Group
 
-Astro-based website for the Rosen Research Group at Princeton University.
+Website for the Rosen Research Group in Princeton University’s Department of Chemical and Biological Engineering.
 
-## Local development
+[View the website](https://quantum-accelerators.github.io/rosen-research-group/)
 
-Install Node.js 22.12 or newer and npm. From the repository root, install the exact dependency versions recorded in `package-lock.json` and start Astro's development server:
+## Development
+
+The site uses [Astro](https://astro.build/) and requires Node.js 22.12 or newer.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Open `http://localhost:4321` in a browser. The development server updates the page as files are edited. Stop it with `Ctrl+C`.
+The development server is available at `http://localhost:4321/rosen-research-group/` and reloads when files change.
 
-To test the production build locally:
+To test the production site locally:
 
 ```sh
 npm run build
 npm run preview
 ```
 
-The production preview also opens at `http://localhost:4321` by default. The generated static site is stored in `dist/`.
+The production preview uses the same `/rosen-research-group/` base path. The generated site is written to `dist/`.
 
-## Editing content
+## Content
 
-Page copy is stored as Markdown under `src/content/`:
+Most updates do not require editing Astro components:
 
-- `pages/` — home, research, teaching, software, handbook, positions, Prof. Rosen, and shared header/footer content
-- `opportunities/` — graduate, postdoctoral, and undergraduate position information
+- `src/content/pages/` contains page copy and shared site settings.
+- `src/content/opportunities/` contains graduate, postdoctoral, and undergraduate opportunities.
+- `src/data/members.json` contains group-member profiles.
+- `src/data/publications.json` contains publications.
+- `src/data/news.json` contains news items.
+- `public/` contains images and downloadable documents.
 
-Structured records remain in JSON under `src/data/`: `publications.json`, `news.json`, and `members.json`.
+Run `npm run build` after editing content to catch invalid data, broken imports, and rendering errors.
 
-Edit Markdown values between the `---` lines and, where applicable, the text beneath them. Edit publications, news items, and member records directly in their JSON files.
+## Pull requests and previews
 
-For ordinary content updates, you should not need to edit any `.astro` file.
+GitHub Actions builds every pull request and uploads the generated `dist/` directory as a `built-website` artifact. For an interactive branch preview, create a GitHub Codespace from the branch and open its forwarded port 4321.
 
-## Previewing a branch on GitHub
+## Deployment
 
-Authorized collaborators can use GitHub Codespaces to view any branch without publishing the website:
+Merges to `main` trigger `.github/workflows/deploy-pages.yml`, which builds the site and deploys it to GitHub Pages. The production build automatically rewrites root-relative links for the repository’s `/rosen-research-group/` base path.
 
-1. Open the branch or pull request to preview on GitHub.
-2. Select **Code** and then **Codespaces**.
-3. Select the **…** menu and **New with options** if you need to choose a branch; otherwise select **Create codespace** from the branch page.
-4. Confirm the desired branch and create the Codespace.
-5. Wait for setup to finish. Dependencies are installed with `npm ci`, the development server starts automatically, and the forwarded port 4321 preview should open.
-6. If the preview does not open, select the **Ports** tab in the Codespace, find port **4321**, and select **Open in Browser**.
-
-The forwarded preview remains private unless its port visibility is deliberately changed. Each collaborator can create an independent preview from the private repository.
-
-## Automated testing
-
-GitHub Actions runs `npm ci` and a complete production build with the latest Node.js release for every pull request, including Dependabot updates. A dependency pull request should not be merged unless the build check passes. Astro 7 requires Node.js 22.12 or newer.
-
-Each successful run includes a `built-website` artifact containing the generated `dist/` directory:
-
-1. Open the repository's **Actions** tab on GitHub.
-2. Open the relevant **Website CI** run for the branch or pull request.
-3. Download **built-website** from the **Artifacts** section.
-
-The artifact contains static files rather than a hosted interactive preview. Use Codespaces for browser-based review.
-
-## Publishing
-
-The repository is private and the website is not currently configured for public deployment. GitHub Pages should remain disabled until the production launch is approved.
