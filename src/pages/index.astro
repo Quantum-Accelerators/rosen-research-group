@@ -13,7 +13,7 @@ const baseUrl = import.meta.env.BASE_URL;
     <div class="hero-shade"></div>
     <div class="hero-copy">
       <p class="eyebrow">{page.heroEyebrow}</p>
-      <h1>{page.heroTitle}{page.heroAccent && <><br/><em>{page.heroAccent}</em></>}</h1>
+      <h1>{page.heroTitle}{page.heroAccent && <><br/><span class="hero-accent">{page.heroAccent}</span></>}</h1>
       <p>{page.heroIntro}</p>
       <a class="button" href="/research">Explore our research <span>→</span></a>
     </div>
@@ -30,7 +30,7 @@ const baseUrl = import.meta.env.BASE_URL;
   .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,13,11,.92) 0%,rgba(12,13,11,.68) 56%,rgba(12,13,11,.24) 100%)}
   .hero-copy{position:relative;max-width:1240px;width:100%;margin:auto;padding:clamp(5rem,8vw,7.5rem) clamp(1.2rem,4vw,3rem)}
   .hero-copy h1{max-width:980px}
-  .hero-copy h1 em{font-weight:400;color:#f0a15b}
+  .hero-accent{font-weight:400;color:#f0a15b}
   .hero-copy>p:not(.eyebrow){font-size:clamp(1rem,1.35vw,1.18rem);line-height:1.6;max-width:700px;color:#e8e6e1;margin:1.7rem 0 2rem}
   .overview{border-bottom:1px solid var(--line)}
   .section-head{display:flex;justify-content:space-between}
