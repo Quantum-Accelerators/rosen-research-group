@@ -37,6 +37,14 @@ footer h2 {
   color: var(--orange-on-dark);
 }
 
+.page-hero {
+  padding: clamp(2.25rem, 4vw, 3.5rem) 0 clamp(2rem, 3.5vw, 3rem);
+}
+
+.page-hero h1 {
+  font-size: clamp(2.75rem, 5vw, 4.5rem);
+}
+
 .button {
   justify-content: center;
   min-height: 44px;
