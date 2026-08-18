@@ -16,8 +16,9 @@ areas:
     text: "What governs the stability of a material and the series of reactions that lead to its decomposition?"
   - label: "Crosscutting effort"
     title: "Machine-learned interatomic potentials"
-    text: "We build datasets, benchmarks, models, and open-source software that make machine-learned interatomic potentials more accurate, reliable, and useful."
+    text: "We build datasets, benchmarks, models, and open-source software that make machine-learned interatomic potentials more reliable."
 latestTitle: "News from the group."
 joinTitle: "Work with us."
 joinText: "We welcome prospective graduate students, postdoctoral researchers, and Princeton undergraduates interested in chemical engineering, materials science, and machine learning."
 ---
+
