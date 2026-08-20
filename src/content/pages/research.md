@@ -18,15 +18,15 @@ areas:
     paragraphs:
       - Our group uses quantum-mechanical simulations and machine learning to
         uncover how unusual electronic configurations in solid-state materials
-        can give rise to fundamentally new forms of chemical reactivity. For
-        example, in a relatively rare class of materials known as electrides,
-        some electrons are not bound to an atomic nucleus; instead, these
-        electrons reside in crystallographic void spaces. We are using
-        quantum-mechanical calculations to identify new classes of electrides
-        and to explain how their spatially confined electrons can enable new
-        kinds of chemical reactivity. To achieve this goal, we also develop new
-        machine learning algorithms to model the spatiotemporal flow of
-        electrons during chemical reaction events.
+        can give rise to new forms of chemical reactivity. For example, in a
+        relatively rare class of materials known as electrides, some electrons
+        are not bound to an atomic nucleus; instead, these electrons reside in
+        crystallographic void spaces. We are using quantum-mechanical
+        calculations to identify new classes of electrides and to explain how
+        their spatially confined electrons can enable new kinds of chemical
+        reactivity. To achieve this goal, we also develop new machine learning
+        algorithms to model the spatiotemporal flow of electrons during chemical
+        reaction events.
     image: /images/electronic-states.png
     imageAlt: Electronic states in a porous solid-state material
     theme: light
@@ -34,12 +34,13 @@ areas:
   - label: Research area 02
     title: Thermodynamic and kinetic stability
     paragraphs:
-      - We study what determines whether a solid-state material remains stable
-        under realistic conditions and what sequence of reactions drives its
-        transformation or decomposition. Our work combines electronic-structure
-        calculations, molecular dynamics, machine-learned interatomic
-        potentials, and free-energy methods to describe metastability,
-        finite-temperature behavior, and reactive processes.
+      - We are developing and applying computational methods to identify what
+        factors govern the stability of solid-state materials and to uncover the
+        reaction mechanisms that drive their decomposition when pushed beyond
+        their limits. Through this research area, we are developing and building
+        upon foundation machine-learned interatomic potentials to describe how
+        solid-state materials respond to high temperature and high pressure
+        conditions, modeling the dynamics of decomposition and phase stability.
     image: /images/research-cover.png
     imageAlt: Atomistic simulation of solid-state material stability
     theme: dark
