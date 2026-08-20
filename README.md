@@ -37,6 +37,12 @@ Most updates do not require editing Astro components:
 
 Run `npm run build` after editing content to catch invalid data, broken imports, and rendering errors.
 
+### Visual content editor
+
+The repository includes a Pages CMS configuration in `.pages.yml`. Visit the site's `/admin/` page or open [Pages CMS](https://app.pagescms.org/), sign in with GitHub, and select `Quantum-Accelerators/rosen-research-group`.
+
+The editor covers page copy, group members, news, publications, opportunities, navigation, images, and documents. Saving in the CMS creates a Git commit; the existing GitHub Actions workflow validates and deploys the updated Astro site.
+
 ## Pull requests and previews
 
 GitHub Actions builds every pull request and uploads the generated `dist/` directory as a `built-website` artifact. For an interactive branch preview, create a GitHub Codespace from the branch and open its forwarded port 4321.
