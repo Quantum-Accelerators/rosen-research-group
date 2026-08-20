@@ -1,0 +1,254 @@
+media:
+  - name: images
+    label: Site images
+    input: public/images
+    output: /images
+    categories: [image]
+    rename: safe
+  - name: documents
+    label: Documents
+    input: public/documents
+    output: /documents
+    categories: [document]
+    rename: safe
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      create: "content: add {slug}"
+      update: "content: update {slug}"
+      delete: "content: remove {slug}"
+
+content:
+  - name: main-pages
+    label: Main pages
+    type: group
+    items:
+      - name: home
+        label: Home page
+        type: file
+        path: src/content/pages/home.md
+        fields:
+          - { name: heroEyebrow, label: Hero eyebrow, type: string }
+          - { name: heroTitle, label: Hero title, type: string }
+          - { name: heroAccent, label: Hero accent, type: string }
+          - { name: heroIntro, label: Hero introduction, type: text }
+          - { name: researchEyebrow, label: Research eyebrow, type: string }
+          - { name: researchTitle, label: Research title, type: string }
+          - { name: researchText, label: Research summary, type: text }
+          - { name: areasTitle, label: Research areas title, type: string }
+          - name: areas
+            label: Research areas
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{title}" }
+            fields:
+              - { name: label, type: string }
+              - { name: title, type: string }
+              - { name: text, type: text }
+          - { name: latestTitle, label: News heading, type: string }
+          - { name: joinTitle, label: Join heading, type: string }
+          - { name: joinText, label: Join text, type: text }
+      - name: research
+        label: Research page
+        type: file
+        path: src/content/pages/research.md
+        fields:
+          - { name: title, type: string }
+          - { name: intro, type: text }
+          - { name: approach, type: text }
+          - { name: questions, type: text, list: true }
+          - { name: crosscutting, type: text }
+          - name: areas
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{title}" }
+            fields:
+              - { name: label, type: string }
+              - { name: title, type: string }
+              - { name: paragraphs, type: text, list: true }
+              - { name: image, type: image, options: { media: images } }
+              - { name: imageAlt, label: Image description, type: string }
+              - { name: theme, type: select, options: { values: [light, dark, white] } }
+              - { name: imageFirst, label: Show image first, type: boolean }
+      - name: software
+        label: Software & data page
+        type: file
+        path: src/content/pages/software.md
+        fields:
+          - { name: title, type: string }
+          - { name: intro, type: text }
+          - { name: organizationTitle, label: Organization title, type: string }
+          - { name: organizationText, label: Organization text, type: text }
+          - { name: organizationUrl, label: Organization URL, type: string }
+          - { name: softwareTitle, label: Software title, type: string }
+          - { name: softwareText, label: Software text, type: text }
+          - { name: quaccUrl, label: QuAcc URL, type: string }
+          - { name: softwareImage, label: Software image, type: image, options: { media: images } }
+          - { name: softwareImageAlt, label: Software image description, type: string }
+          - { name: dataTitle, label: Data title, type: string }
+          - { name: dataText, label: Data text, type: text }
+          - name: datasets
+            type: object
+            list: true
+            fields:
+              - { name: label, type: string }
+              - { name: url, label: URL, type: string }
+          - { name: dataImage, label: Data image, type: image, options: { media: images } }
+          - { name: dataImageAlt, label: Data image description, type: string }
+      - name: teaching
+        label: Teaching page
+        type: file
+        path: src/content/pages/teaching.md
+        fields:
+          - { name: title, type: string }
+          - { name: intro, type: text }
+          - name: courses
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{code}: {title}" }
+            fields:
+              - { name: code, type: string }
+              - { name: semesters, type: string }
+              - { name: title, type: string }
+              - { name: paragraphs, type: text, list: true }
+              - { name: url, label: Course URL, type: string }
+      - name: handbook
+        label: Handbook page
+        type: file
+        path: src/content/pages/handbook.md
+        fields:
+          - { name: title, type: string }
+          - { name: logisticsTitle, label: Logistics title, type: string }
+          - { name: logisticsText, label: Logistics text, type: text }
+          - { name: handbookUrl, label: Handbook URL, type: string }
+          - { name: valuesTitle, label: Values title, type: string }
+          - name: values
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{title}" }
+            fields:
+              - { name: title, type: string }
+              - { name: text, type: text }
+      - name: positions
+        label: Positions page
+        type: file
+        path: src/content/pages/positions.md
+        fields:
+          - { name: title, type: string }
+          - { name: intro, type: text }
+
+  - name: people-content
+    label: People
+    type: group
+    items:
+      - name: principal-investigator
+        label: Principal investigator
+        type: file
+        path: src/content/pages/andrew-s-rosen.md
+        fields:
+          - { name: name, type: string }
+          - { name: eyebrow, type: string }
+          - { name: intro, type: text }
+          - { name: image, type: image, options: { media: images } }
+          - { name: office, type: string }
+          - { name: phone, type: string }
+          - { name: email, type: string }
+          - name: assistant
+            type: object
+            fields:
+              - { name: name, type: string }
+              - { name: url, label: URL, type: string }
+          - { name: affiliations, type: string, list: true }
+          - name: links
+            type: object
+            list: true
+            fields:
+              - { name: label, type: string }
+              - { name: url, label: URL, type: string }
+          - { name: cvUrl, label: CV, type: file, options: { media: documents } }
+          - { name: body, label: Biography, type: rich-text }
+      - name: members
+        label: Group members
+        type: file
+        path: src/data/members.json
+        format: json
+        list: true
+        fields:
+          - { name: slug, type: string, pattern: "^[a-z0-9-]+$" }
+          - { name: name, type: string }
+          - { name: role, type: string }
+          - { name: affiliation, type: string, required: false }
+          - { name: email, type: string, required: false }
+          - { name: about, type: string, list: true, required: false }
+          - { name: image, label: Image filename, type: string, description: "Filename from public/images (for example, jane-doe.jpg). Upload new files in Site images first." }
+
+  - name: updates
+    label: News & publications
+    type: group
+    items:
+      - name: news
+        label: News
+        type: file
+        path: src/data/news.json
+        format: json
+        list: true
+        fields:
+          - { name: title, type: string }
+          - { name: path, label: Page path, type: string }
+          - { name: date, type: string }
+          - { name: text, type: text }
+      - name: publications
+        label: Publications
+        type: file
+        path: src/data/publications.json
+        format: json
+        list: true
+        fields:
+          - { name: number, type: number }
+          - { name: title, type: string }
+          - { name: citation, type: text }
+          - { name: url, label: URL, type: string, required: false }
+
+  - name: opportunities
+    label: Opportunities
+    type: collection
+    path: src/content/opportunities
+    filename: "{order}-{primary}.md"
+    view:
+      primary: title
+      sort: [order, title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - { name: label, type: string }
+      - { name: title, type: string }
+      - { name: order, type: number }
+      - { name: body, label: Details, type: rich-text }
+
+  - name: site-settings
+    label: Site settings
+    type: file
+    path: src/content/pages/site.md
+    fields:
+      - { name: description, type: text }
+      - { name: universityLabel, label: University name, type: string }
+      - { name: universityUrl, label: University URL, type: string }
+      - { name: department, type: string }
+      - { name: departmentUrl, label: Department URL, type: string }
+      - { name: brand, type: string }
+      - { name: footerText, label: Footer text, type: string }
+      - { name: address, type: string }
+      - { name: githubUrl, label: GitHub URL, type: string }
+      - { name: diversityUrl, label: Diversity URL, type: string }
+      - { name: accessibilityUrl, label: Accessibility URL, type: string }
+      - name: navigation
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{label}" }
+        fields:
+          - { name: label, type: string }
+          - { name: url, label: Site path, type: string }
