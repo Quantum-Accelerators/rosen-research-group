@@ -18,15 +18,12 @@ areas:
     paragraphs:
       - Our group uses quantum-mechanical simulations and machine learning to
         uncover how unusual electronic configurations in solid-state materials
-        can give rise to new forms of chemical reactivity. For example, in a
-        relatively rare class of materials known as electrides, some electrons
-        are not bound to an atomic nucleus; instead, these electrons reside in
-        crystallographic void spaces. We are using quantum-mechanical
-        calculations to identify new classes of electrides and to explain how
-        their spatially confined electrons can enable new kinds of chemical
-        reactivity. To achieve this goal, we also develop new machine learning
-        algorithms to model the spatiotemporal flow of electrons during chemical
-        reaction events.
+        can give rise to new forms of chemical reactivity. In particular, we are
+        interested in studying how spatially confined electrons in solid-state
+        materials activate otherwise strong chemical bonds at mild conditions.
+        To achieve these goals, we also develop new machine learning algorithms
+        to model the spatiotemporal flow of electrons during chemical reaction
+        events.
     image: /images/electronic-states.png
     imageAlt: Electronic states in a porous solid-state material
     theme: light
@@ -40,7 +37,8 @@ areas:
         their limits. Through this research area, we are developing and building
         upon foundation machine-learned interatomic potentials to describe how
         solid-state materials respond to high temperature and high pressure
-        conditions, modeling the dynamics of decomposition and phase stability.
+        conditions. In doing so, we seek to capture the complex reaction
+        dynamics of decomposition and the factors governing phase stability.
     image: /images/research-cover.png
     imageAlt: Atomistic simulation of solid-state material stability
     theme: dark
