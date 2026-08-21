@@ -14,7 +14,7 @@ crosscutting: Across both areas, we develop the datasets, benchmarks, machine
   simulation across the computational materials science community.
 areas:
   - label: Research area 01
-    title: Electronic structure beyond the atom
+    title: Electronic structure and emergent reactivity
     paragraphs:
       - Our group uses quantum-mechanical simulations and machine learning to
         uncover how unusual electronic configurations in solid-state materials
@@ -29,7 +29,7 @@ areas:
     theme: light
     imageFirst: true
   - label: Research area 02
-    title: Thermodynamic and kinetic stability
+    title: Stability and decomposition
     paragraphs:
       - We are developing and applying computational methods to identify what
         factors govern the stability of solid-state materials and to uncover the
