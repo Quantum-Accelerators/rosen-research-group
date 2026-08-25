@@ -41,12 +41,6 @@ values:
   - title: Respect for time
     text: We are respectful of each other’s time. Everyone’s time is valuable, and
       we try to be respectful of this in our day-to-day interactions.
-  - title: Coding best practices
-    text: We embrace coding best practices. We believe that scientific software is
-      as important as the science itself and shouldn’t be an afterthought. We
-      strive to adopt best practices in software development to the best of our
-      abilities. We continue to refine our own coding abilities regardless of
-      our background.
   - title: Open science
     text: We believe that science should be open and accessible to all. We believe
       open and accessible scientific work accelerates problem solving and
