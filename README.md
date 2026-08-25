@@ -4,13 +4,15 @@ Website for the Rosen Research Group in Princeton University’s Department of C
 
 [View the website](https://quantum-accelerators.github.io/rosen-research-group/)
 
+## Development
+
 ### Visual content editor
 
 The repository includes a Pages CMS configuration in `.pages.yml`. Visit the site's `/admin/` page or open [Pages CMS](https://app.pagescms.org/), sign in with GitHub, and select `Quantum-Accelerators/rosen-research-group`.
 
 The editor covers page copy, group members, news, publications, opportunities, navigation, images, and documents. Saving in the CMS creates a Git commit; the existing GitHub Actions workflow validates and deploys the updated Astro site.
 
-## Development
+### Detailed editing
 
 The site uses [Astro](https://astro.build/) and requires Node.js 22.12 or newer.
 
