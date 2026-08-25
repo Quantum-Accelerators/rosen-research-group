@@ -3,7 +3,7 @@
     "number": 47,
     "title": "Fine-Tuning a Universal Machine-Learned Interatomic Potential for Oxygen Plasma Interactions with WS2",
     "citation": "J. Kwon, A.S. Rosen, D.B. Graves*",
-    "url": null
+    "url": "https://doi.org/10.48550/arXiv.2606.21632"
   },
   {
     "number": 46,
@@ -14,8 +14,7 @@
   {
     "number": 45,
     "title": "Designing High-Valent Copper-Oxo Complexes Through Ligand Engineering",
-    "citation": "K. Yao†, X. Wang†, S. Iyer, A.S. Rosen*, R.Q. Snurr*",
-    "url": null
+    "citation": "K. Yao†, X. Wang†, S. Iyer, A.S. Rosen*, R.Q. Snurr*"
   },
   {
     "number": 44,
@@ -282,4 +281,3 @@
     "url": "https://doi.org/10.1088/0953-4075/47/10/105701"
   }
 ]
-
