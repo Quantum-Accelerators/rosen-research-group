@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/prepare-pages.mjs",
+    "build": "astro build",
     "preview": "astro preview"
   },
   "dependencies": {

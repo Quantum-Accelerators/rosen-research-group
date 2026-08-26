@@ -2,7 +2,7 @@
 
 Website for the Rosen Research Group in Princeton University’s Department of Chemical and Biological Engineering.
 
-[View the website](https://quantum-accelerators.github.io/rosen-research-group/)
+[View the website](https://rosen.cbe.princeton.edu/)
 
 ## Development
 
@@ -21,7 +21,7 @@ npm ci
 npm run dev
 ```
 
-The development server is available at `http://localhost:4321/rosen-research-group/` and reloads when files change.
+The development server is available at `http://localhost:4321/` and reloads when files change.
 
 To test the production site locally:
 
@@ -30,7 +30,7 @@ npm run build
 npm run preview
 ```
 
-The production preview uses the same `/rosen-research-group/` base path. The generated site is written to `dist/`.
+The production preview serves the site from the root path. The generated site is written to `dist/`.
 
 ## Content
 
@@ -52,5 +52,5 @@ GitHub Actions builds every pull request and uploads the generated `dist/` direc
 
 ## Deployment
 
-Merges to `main` trigger `.github/workflows/deploy-pages.yml`, which builds the site and deploys it to GitHub Pages. The production build automatically rewrites root-relative links for the repository’s `/rosen-research-group/` base path.
+Merges to `main` trigger `.github/workflows/deploy-pages.yml`, which builds the site and deploys it to GitHub Pages at [rosen.cbe.princeton.edu](https://rosen.cbe.princeton.edu/).
 
