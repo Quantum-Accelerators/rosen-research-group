@@ -1,20 +1,20 @@
 [
   {
-    "number": 47,
+    "number": 45,
     "title": "Fine-Tuning a Universal Machine-Learned Interatomic Potential for Oxygen Plasma Interactions with WS2",
     "citation": "J. Kwon, A.S. Rosen, D.B. Graves*, Journal of Vacuum Science & Technology A (accepted).",
     "url": "https://doi.org/10.48550/arXiv.2606.21632",
     "status": "published"
   },
   {
-    "number": 46,
+    "number": 47,
     "title": "Agentic Laboratories of the Future: Towards World Models for Scientific Discovery",
     "citation": "K. Fu, Y. Wu, L. Lyu, S. Li, S. Huang, S. Xu, J. Zheng, X. Liu, S. Liu, G. Barbone, Y. Liu, L. Fan, Y. Zhu, M. Davis, K. Jiang, S. Yang, X. Kuang, Y. Luo, F. Dominici, C. Curtis, X. Qiu, A. Abadie, C. Uhler, M. Tang, J.C. Wu, J. Li, J. Toettcher, J.L. Avalos, R. Rojansky, H. Zhao, J.P.A. Ioannidis, B. Rand, E. Lundberg, A.S. Rosen, Z. Liu, S. Kelley, T. Montine, C.V. Theodoris, K.S. Pollard, F. Li, X. Zhang, T. Peng, D. Basov, X. Qian, E. Xing, J. Leskovec, N. Shah, Z. Bao, P. Perona, S. Wu, C. Brangwynne, L. Cong*, M. Wang*. DOI: 10.20944/preprints202608.0213.v1",
     "url": "https://www.preprints.org/manuscript/202608.0213",
     "status": "submitted"
   },
   {
-    "number": 45,
+    "number": 46,
     "title": "Designing High-Valent Copper-Oxo Complexes Through Ligand Engineering",
     "citation": "K. Yao†, X. Wang†, S. Iyer, A.S. Rosen*, R.Q. Snurr*",
     "status": "submitted"
