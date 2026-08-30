@@ -5,11 +5,9 @@ import publications from '../data/publications.json';
 
 const submitted = publications.filter((publication) => publication.status === 'submitted');
 const published = publications.filter((publication) => publication.status === 'published');
-const formatCitation = (publication: (typeof publications)[number]) => {
-  let formatted = publication.citation.replaceAll('=', '†').replaceAll('†', '<sup>†</sup>');
-  for (const journal of [...publication.journals].sort((a, b) => b.length - a.length)) {
-    formatted = formatted.replaceAll(journal, `<em>${journal}</em>`);
-  }
+const formatCitation = (citation: string) => {
+  let formatted = citation.replaceAll('=', '†').replaceAll('†', '<sup>†</sup>');
+  formatted = formatted.replace(/_([^_]+)_/g, '<em>$1</em>');
   formatted = formatted.replace(/ — (.+)$/, '<span class="publication-note">$1</span>');
   return formatted;
 };
@@ -26,14 +24,14 @@ const formatCitation = (publication: (typeof publications)[number]) => {
         <h2 id="submitted-heading">Submitted Articles and Pre-Prints</h2>
         <p class="legend"><b>Notation:</b> * corresponding author · † equal contribution</p>
         <div class="publication-list">
-          {submitted.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication)} /></article>)}
+          {submitted.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication.citation)} /></article>)}
         </div>
       </section>
 
       <section class="publication-section" aria-labelledby="published-heading">
         <h2 id="published-heading">Published and In Press</h2>
         <div class="publication-list">
-          {published.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication)} /></article>)}
+          {published.map((publication) => <article class="publication"><p class="number">{String(publication.number).padStart(2, '0')}</p><h3>{publication.url ? <a href={publication.url}>{publication.title} ↗</a> : publication.title}</h3><p set:html={formatCitation(publication.citation)} /></article>)}
         </div>
       </section>
     </div>
