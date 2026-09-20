@@ -1,5 +1,11 @@
 [
   {
+    "number": 50,
+    "title": "Democratizing Atomistic Simulation Workflows for the AI Era with the Quantum Accelerator",
+    "citation": "A.S. Rosen*, N. Goyal, B. Ayers, V. Bansal, J.H. Baratta, S.M. Blau, Y. Chiang, S. Choi, O.A. Cohen, B. Dallmann, T. Demeyere, W. Engler, Y.-W. Fang, I. Furrick, H. Kim, H. Kondo, A. Kumar, J. Kwon, O. Mamun, H. Oliaei, A. Saha, D. Sarpa, B.X. Shi, Y. Shi, X. Wang, R.B. Wexler",
+    "status": "submitted"
+  },
+  {
     "number": 49,
     "title": "Towards a Metal–Organic Framework with Pore-Confined Electrons",
     "citation": "J.H. Baratta, A.S. Rosen*. arXiv:2609.13939 (2026).",
