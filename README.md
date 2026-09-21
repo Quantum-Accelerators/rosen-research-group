@@ -53,3 +53,7 @@ GitHub Actions builds every pull request and uploads the generated `dist/` direc
 
 Merges to `main` trigger `.github/workflows/deploy-pages.yml`, which builds the site and deploys it to GitHub Pages at [rosen.cbe.princeton.edu](https://rosen.cbe.princeton.edu/).
 
+The repository's **Settings → Pages → Custom domain** must be set to `rosen.cbe.princeton.edu`. The deployment workflow checks this before building because the site uses root-relative asset and navigation URLs. The `site` value in `astro.config.mjs` does not configure the GitHub Pages domain, and a `CNAME` file is ignored when publishing with a custom Actions workflow ([GitHub documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)).
+
+If GitHub reports that the domain is already taken, release it from the previous repository's Pages settings before assigning it here. If that repository is unavailable, follow GitHub's [custom-domain verification guidance](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages) to resolve the existing claim. DNS should point `rosen.cbe.princeton.edu` to `quantum-accelerators.github.io`.
+
