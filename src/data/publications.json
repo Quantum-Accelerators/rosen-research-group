@@ -36,7 +36,7 @@
   {
     "number": 45,
     "title": "The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models",
-    "citation": "D.S. Levine=, M. Shuaibi=, M. Hasyim, K. Michel, E.W.C. Spotte-Smith, M.G. Taylor, M.R. Hasyim, K. Michel, I. Batatia, G. Csányi, M. Dzamba, P. Eastman, N.C. Frey, X. Fu, V. Gharakhanyan, A.S. Krishnapriyan, J.A. Rackers, S. Raja, A. Rizvi, A.S. Rosen, Z. Ulissi, S. Vargas, C.L. Zitnick, S.M. Blau*, B.M. Wood*. arXiv:2505.08762 (2025).",
+    "citation": "D.S. Levine=, M. Shuaibi=, E.W.C. Spotte-Smith, M.G. Taylor, M.R. Hasyim, K. Michel, I. Batatia, G. Csányi, M. Dzamba, P. Eastman, N.C. Frey, X. Fu, V. Gharakhanyan, A.S. Krishnapriyan, J.A. Rackers, S. Raja, A. Rizvi, A.S. Rosen, Z. Ulissi, S. Vargas, C.L. Zitnick, S.M. Blau*, B.M. Wood*. arXiv:2505.08762 (2025).",
     "url": "https://arxiv.org/abs/2505.08762",
     "status": "submitted"
   },
@@ -71,7 +71,7 @@
   {
     "number": 40,
     "title": "Multi-Gas Adsorption with Single-Site Cooperativity in a Metal–Organic Framework",
-    "citation": "K.M. Carsch, H.Z.H. Jiang, R.A. Klein, A.S. Rosen, P. Summerhill, J.L. Peltier, A.J. Huang, R.A. Murphy, M.N. Dods, H.A. Silva, Z. Hasanbasri, H. Kwon, S.L. Karstens, Y. Yabuuchi, J. Börgel, J.W. Taylor, K.R. Meihaus, K.C. Bustillo, A.M. Minor, K.A. Persson, C.M. Brown, R.D. Britt, N.P. Stadie, J.R. Long*, _Science_, 390, 808-812 (2025).",
+    "citation": "K.M. Carsch, H.Z.H. Jiang, R.A. Klein, A.S. Rosen, P. Summerhill, J.L. Peltier, A.J. Huang, R.A. Murphy, M.N. Dods, H.A. Silva, Z. Hasanbasri, H. Kwon, S.L. Karstens, Y. Yabuuchi, J. Börgel, J.W. Taylor, K.R. Meihaus, K.C. Bustillo, A.M. Minor, K.A. Persson, C.M. Brown, R.D. Britt, N.P. Stadie, J.R. Long*, _Science_, 390, 808–812 (2025).",
     "url": "https://www.science.org/doi/10.1126/science.ady2607",
     "status": "published"
   },
@@ -92,14 +92,14 @@
   {
     "number": 37,
     "title": "Computational Investigation of the Impact of Metal–Organic Framework Topology on Hydrogen Storage Capacity",
-    "citation": "K. Liu, H. Chen, T. Islamoglu, A.S. Rosen, X. Wang, O.K. Farha, R.Q. Snurr*, _Molecular Systems Design & Engineering_, 10, 817–835  (2025).",
+    "citation": "K. Liu, H. Chen, T. Islamoglu, A.S. Rosen, X. Wang, O.K. Farha, R.Q. Snurr*, _Molecular Systems Design & Engineering_, 10, 817–835 (2025).",
     "url": "https://doi.org/10.1039/D5ME00078E",
     "status": "published"
   },
   {
     "number": 36,
     "title": "Accelerated Data-Driven Materials Science with the Materials Project",
-    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M.C. Kuner, G.M. Rignanese, G. Hautier, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_ (2025).",
+    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M.C. Kuner, G.-M. Rignanese, G. Hautier, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_, 24, 1522–1532 (2025).",
     "url": "https://www.nature.com/articles/s41563-025-02272-0",
     "status": "published"
   },
@@ -119,7 +119,7 @@
   },
   {
     "number": 33,
-    "title": "Machine Learned Potential for High-Throughput Phonon Calculations of Metal-Organic Frameworks",
+    "title": "Machine Learned Potential for High-Throughput Phonon Calculations of Metal–Organic Frameworks",
     "citation": "A.M. Elena=, P.D. Kamath=, T.J. Inizan, A.S. Rosen, F. Zanca, K.A. Persson*, _npj Computational Materials_, 11, 125 (2025).",
     "url": "https://doi.org/10.1038/s41524-025-01611-8",
     "status": "published"
@@ -127,8 +127,8 @@
   {
     "number": 32,
     "title": "A Recipe for Charge Density Prediction",
-    "citation": "X. Fu*, A.S. Rosen, K. Bystrom, R. Wang, A. Musaelian, B. Kozinsky, T. Smidt, T.S. Jaakkola, _Advances in Neural Information Processing Systems (NeurIPS)_, 37, 9727-9752 (2024).",
-    "url": "http://arxiv.org/abs/2405.19276",
+    "citation": "X. Fu*, A.S. Rosen, K. Bystrom, R. Wang, A. Musaelian, B. Kozinsky, T. Smidt, T.S. Jaakkola, _Advances in Neural Information Processing Systems (NeurIPS)_, 37, 9727–9752 (2024).",
+    "url": "https://arxiv.org/abs/2405.19276",
     "status": "published"
   },
   {
@@ -155,7 +155,7 @@
   {
     "number": 28,
     "title": "MOFDiff: Coarse‑Grained Diffusion for Metal–Organic Framework Design",
-    "citation": "X. Fu*, T. Xie, A.S. Rosen, T.S. Jaakkola, J.A. Smith*, _International Conference on Learning Representations_, 12, (2024).",
+    "citation": "X. Fu*, T. Xie, A.S. Rosen, T.S. Jaakkola, J.A. Smith*, _International Conference on Learning Representations (ICLR)_, 12 (2024).",
     "url": "https://openreview.net/pdf?id=0VBsoluxR2",
     "status": "published"
   },
@@ -169,14 +169,14 @@
   {
     "number": 26,
     "title": "Jobflow: Computational Workflows Made Simple",
-    "citation": "A.S. Rosen, M. Gallant, J. George, J. Riebesell, H. Sahasrabuddhe, J.X. Shen, M. Wen, M.L. Evans, G. Petretto, D. Waroquiers, G.‑M. Rignanese, K.A. Persson, A. Jain, A.M. Ganose*, _Journal of Open Source Software_, 9, 5995 (2024).",
+    "citation": "A.S. Rosen, M. Gallant, J. George, J. Riebesell, H. Sahasrabuddhe, J.-X. Shen, M. Wen, M.L. Evans, G. Petretto, D. Waroquiers, G.‑M. Rignanese, K.A. Persson, A. Jain, A.M. Ganose*, _Journal of Open Source Software_, 9, 5995 (2024).",
     "url": "https://doi.org/10.21105/joss.05995",
     "status": "published"
   },
   {
     "number": 25,
     "title": "Tetrazine‑Linked Covalent Organic Frameworks with Acid Sensing and Photocatalytic Activity",
-    "citation": "A. Zadehnazari, A. Khosropour, A.A. Altaf, A.S. Rosen, A. Abbaspourrad*, _Advanced Materials_, 2311042 (2024).",
+    "citation": "A. Zadehnazari, A. Khosropour, A.A. Altaf, A.S. Rosen, A. Abbaspourrad*, _Advanced Materials_, 36, 2311042 (2024).",
     "url": "https://doi.org/10.1002/adma.202311042",
     "status": "published"
   },
@@ -232,13 +232,13 @@
   {
     "number": 17,
     "title": "Realizing the Data‑Driven, Computational Discovery of Metal–Organic Framework Catalysts",
-    "citation": "A.S. Rosen, J.M. Notestein*, R.Q. Snurr*. _Current Opinion in Chemical Engineering_, 35, 100760 (2022).",
+    "citation": "A.S. Rosen, J.M. Notestein*, R.Q. Snurr*, _Current Opinion in Chemical Engineering_, 35, 100760 (2022).",
     "url": "https://doi.org/10.1016/j.coche.2021.100760",
     "status": "published"
   },
   {
     "number": 16,
-    "title": "Fine‑Tuning A Robust Metal–Organic Framework Towards Enhanced Clean Energy Gas Storage",
+    "title": "Fine‑Tuning a Robust Metal–Organic Framework Towards Enhanced Clean Energy Gas Storage",
     "citation": "Z. Chen, M.R. Mian, S.‑J. Lee, H. Chen, X. Zhang, K.O. Kirlikovali, S. Shulda, P. Melix, A.S. Rosen, P.A. Parilla, T. Gennett, R.Q. Snurr, T. Islamoglu*, T. Yildirim*, O.K. Farha*, _Journal of the American Chemical Society_, 143, 18838–18843 (2021).",
     "url": "https://doi.org/10.1021/jacs.1c08749",
     "status": "published"
@@ -287,7 +287,7 @@
   },
   {
     "number": 9,
-    "title": "Tuning the Redox Activity of Metal−Organic Frameworks for Enhanced, Selective O2 Binding: Design Rules and Ambient Temperature O2 Chemisorption in a Cobalt−Triazolate Framework",
+    "title": "Tuning the Redox Activity of Metal–Organic Frameworks for Enhanced, Selective O2 Binding: Design Rules and Ambient Temperature O2 Chemisorption in a Cobalt–Triazolate Framework",
     "citation": "A.S. Rosen, M.R. Mian, T. Islamoglu, H. Chen, O.K. Farha, J.M. Notestein, R.Q. Snurr*, _Journal of the American Chemical Society_, 142, 4317–4328 (2020).",
     "url": "https://doi.org/10.1021/jacs.9b12401",
     "status": "published"
@@ -337,7 +337,7 @@
   {
     "number": 2,
     "title": "A Detailed Combined Experimental and Theoretical Study on Dimethyl Ether/Propane Blended Oxidation",
-    "citation": "E.E. Dames, A.S. Rosen, B.W. Weber, C.W. Gao, C‑J. Sung, W.H. Green*, _Combustion and Flame_, 168, 310–330 (2016).",
+    "citation": "E.E. Dames, A.S. Rosen, B.W. Weber, C.W. Gao, C.-J. Sung, W.H. Green*, _Combustion and Flame_, 168, 310–330 (2016).",
     "url": "https://doi.org/10.1016/j.combustflame.2016.02.021",
     "status": "published"
   },
