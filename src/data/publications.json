@@ -99,7 +99,7 @@
   {
     "number": 36,
     "title": "Accelerated Data-Driven Materials Science with the Materials Project",
-    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M. Kuner, G.M. Rignanese, G. Hautier, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_ (2025).",
+    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M.C. Kuner, G.M. Rignanese, G. Hautier, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_ (2025).",
     "url": "https://www.nature.com/articles/s41563-025-02272-0",
     "status": "published"
   },
@@ -127,7 +127,7 @@
   {
     "number": 32,
     "title": "A Recipe for Charge Density Prediction",
-    "citation": "X. Fu*, A.S. Rosen, K. Bystrom, R. Wang, A. Musaelian, B. Kozinsky, T. Smidt, T.S. Jaakola, _Advances in Neural Information Processing Systems (NeurIPS)_, 37, 9727-9752 (2024).",
+    "citation": "X. Fu*, A.S. Rosen, K. Bystrom, R. Wang, A. Musaelian, B. Kozinsky, T. Smidt, T.S. Jaakkola, _Advances in Neural Information Processing Systems (NeurIPS)_, 37, 9727-9752 (2024).",
     "url": "http://arxiv.org/abs/2405.19276",
     "status": "published"
   },
@@ -239,7 +239,7 @@
   {
     "number": 16,
     "title": "Fine‑Tuning A Robust Metal–Organic Framework Towards Enhanced Clean Energy Gas Storage",
-    "citation": "Z. Chen, M.R. Mian, S.‑J. Lee, H. Chen, X. Zhang, K.O. Kirlikovali, S. Shulda, P. Melix, A.S. Rosen, P.A. Parilla, T. Gennett, R.Q. Snurr, T. Islamoglu*, T. Yildrim*, O.K. Farha*, _Journal of the American Chemical Society_, 143, 18838–18843 (2021).",
+    "citation": "Z. Chen, M.R. Mian, S.‑J. Lee, H. Chen, X. Zhang, K.O. Kirlikovali, S. Shulda, P. Melix, A.S. Rosen, P.A. Parilla, T. Gennett, R.Q. Snurr, T. Islamoglu*, T. Yildirim*, O.K. Farha*, _Journal of the American Chemical Society_, 143, 18838–18843 (2021).",
     "url": "https://doi.org/10.1021/jacs.1c08749",
     "status": "published"
   },
