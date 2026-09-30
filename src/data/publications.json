@@ -85,7 +85,7 @@
   {
     "number": 38,
     "title": "An Accurate and Efficient Framework for Modelling the Surface Chemistry of Ionic Materials",
-    "citation": "B.X. Shi, A.S. Rosen, T. Schäfer, A. Grüneis, V. Kapil, A. Zen, A. Michaelides*, _Nature Chemistry_ (2025).",
+    "citation": "B.X. Shi, A.S. Rosen, T. Schäfer, A. Grüneis, V. Kapil, A. Zen, A. Michaelides*, _Nature Chemistry_, 17, 1688–1695 (2025).",
     "url": "https://doi.org/10.1038/s41557-025-01884-y",
     "status": "published"
   },
@@ -106,7 +106,7 @@
   {
     "number": 35,
     "title": "Atomate2: Modular Workflows for Materials Science",
-    "citation": "A.M. Ganose*, H. Sahasrabuddhe, M. Asta, K. Beck, T. Biswas, A. Bonkowski, J. Bustamante, X. Chen, Y. Chiang, J. Clary, D. Chrzan, O. Cohen, C. Ertural, M. Gallant, J. George, S. Gerits, R. Goodall, R. Guha, G. Hautier, M. Horton, A.D. Kaplan, R.S. Kingsbury, M.C. Kuner, B. Li, X. Linn, M.J. McDermott, R.S. Mohanakrishnan, A.N. Naik, J.B. Neaton, K.A. Persson, G. Petretto, T.A.R. Purcell, F. Ricci, B. Rich, J. Riebesell, G.-M. Rignanese, A.S. Rosen, M. Scheffler, J. Schmidt, J.-X. Shen, A. Sobolev, R. Sundararaman, C. Tezak, V. Trinquet, J.B. Varley, D. Vigil-Fowler, D. Wang, D. Waroquiers, M. Wen, H. Yang, H. Zheng, J. Zheng, Z. Zhu, A. Jain*, _Digital Discovery_, 4, 1944–1973 (2025).",
+    "citation": "A.M. Ganose*, H. Sahasrabuddhe, M. Asta, K. Beck, T. Biswas, A. Bonkowski, J. Bustamante, X. Chen, Y. Chiang, J. Clary, D. Chrzan, O. Cohen, C. Ertural, M. Gallant, J. George, S. Gerits, R. Goodall, R. Guha, G. Hautier, M. Horton, A.D. Kaplan, R.S. Kingsbury, M.C. Kuner, B. Li, X. Linn, M.J. McDermott, R.S. Mohanakrishnan, A.A. Naik, J.B. Neaton, K.A. Persson, G. Petretto, T.A.R. Purcell, F. Ricci, B. Rich, J. Riebesell, G.-M. Rignanese, A.S. Rosen, M. Scheffler, J. Schmidt, J.-X. Shen, A. Sobolev, R. Sundararaman, C. Tezak, V. Trinquet, J.B. Varley, D. Vigil-Fowler, D. Wang, D. Waroquiers, M. Wen, H. Yang, H. Zheng, J. Zheng, Z. Zhu, A. Jain*, _Digital Discovery_, 4, 1944–1973 (2025).",
     "url": "https://doi.org/10.1039/D5DD00019J",
     "status": "published"
   },
@@ -155,7 +155,7 @@
   {
     "number": 28,
     "title": "MOFDiff: Coarse‑Grained Diffusion for Metal–Organic Framework Design",
-    "citation": "X. Fu*, T. Xie, A.S. Rosen, T.S. Jaakkola, J.A. Smith*, _International Conference on Learning Representations (ICLR)_, 12, (2024).",
+    "citation": "X. Fu*, T. Xie, A.S. Rosen, T.S. Jaakkola, J.A. Smith*, _International Conference on Learning Representations_, 12, (2024).",
     "url": "https://openreview.net/pdf?id=0VBsoluxR2",
     "status": "published"
   },
@@ -218,7 +218,7 @@
   {
     "number": 19,
     "title": "High‑Throughput Predictions of Metal–Organic Framework Electronic Properties: Theoretical Challenges, Graph Neural Networks, and Data Exploration",
-    "citation": "A.S. Rosen*, V. Fung, P. Huck, C.T. O’Donnell, M.K. Horton, D.T. Truhlar, K.A. Persson, J.M. Notestein, R.Q. Snurr, _npj Computational Materials_, 8, 112 (2022). — Highlighted in Nature Portfolio’s Nobel Prize in Physics 2024 collection and in _MRS Bulletin_, 47, 886 (2022).",
+    "citation": "A.S. Rosen*, V. Fung, P. Huck, C.T. O’Donnell, M.K. Horton, D.G. Truhlar, K.A. Persson, J.M. Notestein, R.Q. Snurr, _npj Computational Materials_, 8, 112 (2022). — Highlighted in Nature Portfolio’s Nobel Prize in Physics 2024 collection and in _MRS Bulletin_, 47, 886 (2022).",
     "url": "https://doi.org/10.1038/s41524-022-00796-6",
     "status": "published"
   },
@@ -260,14 +260,14 @@
   {
     "number": 13,
     "title": "Supramolecular Porous Assemblies of Atomically Precise Catalytically Active Cerium‑Based Clusters",
-    "citation": "M.C. Wasson, X. Zhang, K. Otake, A.S. Rosen, S. Alayoglu, M.D. Krzyaniak, Z. Chen, L.R. Redfern, L. Robison, F.A. Son, Y. Chen, T. Islamoglu, J.M. Notestein, R.Q. Snurr, M.R. Wasielewski, O.K. Farha*, _Chemistry of Materials_, 32, 8522– 8529 (2020).",
+    "citation": "M.C. Wasson, X. Zhang, K. Otake, A.S. Rosen, S. Alayoglu, M.D. Krzyaniak, Z. Chen, L.R. Redfern, L. Robison, F.A. Son, Y. Chen, T. Islamoglu, J.M. Notestein, R.Q. Snurr, M.R. Wasielewski, O.K. Farha*, _Chemistry of Materials_, 32, 8522–8529 (2020).",
     "url": "https://doi.org/10.1021/acs.chemmater.0c02740",
     "status": "published"
   },
   {
     "number": 12,
     "title": "Comparing GGA, GGA+U, and Meta‑GGA Functionals for Redox‑Dependent Binding at Open Metal Sites in Metal–Organic Frameworks",
-    "citation": "A.S. Rosen, J.M. Notestein*, R.Q. Snurr*, _Journal of Chemical Physics_, 152, 24101 (2020).",
+    "citation": "A.S. Rosen, J.M. Notestein*, R.Q. Snurr*, _Journal of Chemical Physics_, 152, 224101 (2020).",
     "url": "https://doi.org/10.1063/5.0010166",
     "status": "published"
   },
