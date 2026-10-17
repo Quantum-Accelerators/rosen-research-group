@@ -29,7 +29,7 @@
   {
     "number": 47,
     "title": "Agentic Laboratories of the Future: Towards World Models for Scientific Discovery",
-    "citation": "K. Fu, Y. Wu, L. Lyu, S. Li, S. Huang, S. Xu, J. Zheng, X. Liu, S. Liu, G. Barbone, Y. Liu, L. Fan, Y. Zhu, M. Davis, K. Jiang, S. Yang, X. Kuang, Y. Luo, F. Dominici, C. Curtis, X. Qiu, A. Abadie, C. Uhler, M. Tang, J.C. Wu, J. Li, J. Toettcher, J.L. Avalos, R. Rojansky, H. Zhao, J.P.A. Ioannidis, B. Rand, E. Lundberg, A.S. Rosen, Z. Liu, S. Kelley, T. Montine, C.V. Theodoris, K.S. Pollard, F. Li, X. Zhang, T. Peng, D. Basov, X. Qian, E. Xing, J. Leskovec, N. Shah, Z. Bao, P. Perona, S. Wu, C. Brangwynne, L. Cong*, M. Wang*. DOI: 10.20944/preprints202608.0213.v1",
+    "citation": "K. Fu, L. Lyu, S. Li, S. Huang, S. Xu, J. Zheng, X. Liu, S. Liu, G. Barbone, Y. Liu, L.J. Fan, Y. Zhu, M. Davis, K. Jiang, S. Yang, X. Kuang, Y. Luo, F. Dominici, C. Curtis, X. Qiu, A. Abadie, C. Uhler, M. Tang, J.C. Wu, J. Li, J. Toettcher, J.L. Avalos, R. Rojansky, H. Zhao, J.P.A. Ioannidis, B. Rand, E. Lundberg, A.S. Rosen, Z. Liu, S. Kelley, C. Xiong, B.E. Engelhardt, T. Montine, C.V. Theodoris, K.S. Pollard, F. Li, X. Zhang, T. Peng, D. Basov, X. Qian, E. Xing, A. Yazdani, J. Leskovec, N. Shah, Z. Bao, P. Perona, S. Wu, C. Brangwynne, L. Cong*, M. Wang*. Preprints (2026).",
     "url": "https://www.preprints.org/manuscript/202608.0213",
     "status": "submitted"
   },
@@ -76,8 +76,8 @@
   },
   {
     "number": 40,
-    "title": "Multi-Gas Adsorption with Single-Site Cooperativity in a Metal–Organic Framework",
-    "citation": "K.M. Carsch, H.Z.H. Jiang, R.A. Klein, A.S. Rosen, P. Summerhill, J.L. Peltier, A.J. Huang, R.A. Murphy, M.N. Dods, H.A. Silva, Z. Hasanbasri, H. Kwon, S.L. Karstens, Y. Yabuuchi, J. Börgel, J.W. Taylor, K.R. Meihaus, K.C. Bustillo, A.M. Minor, K.A. Persson, C.M. Brown, R.D. Britt, N.P. Stadie, J.R. Long*, _Science_, 390, 808–812 (2025).",
+    "title": "Multigas Adsorption with Single-Site Cooperativity in a Metal–Organic Framework",
+    "citation": "K.M. Carsch, H.Z.H. Jiang, R.A. Klein, A.S. Rosen, P.S. Summerhill, J.L. Peltier, A.J. Huang, R.A. Murphy, M.N. Dods, H.A. Silva, Z. Hasanbasri, H. Kwon, S.L. Karstens, Y. Yabuuchi, J. Börgel, J.W. Taylor, K.R. Meihaus, K.C. Bustillo, A.M. Minor, K.A. Persson, C.M. Brown, R.D. Britt, N.P. Stadie, J.R. Long*, _Science_, 390, 808–812 (2025).",
     "url": "https://www.science.org/doi/10.1126/science.ady2607",
     "status": "published"
   },
@@ -105,14 +105,14 @@
   {
     "number": 36,
     "title": "Accelerated Data-Driven Materials Science with the Materials Project",
-    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M.C. Kuner, G.-M. Rignanese, G. Hautier, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_, 24, 1522–1532 (2025).",
+    "citation": "M.K. Horton, P. Huck, R.X. Yang, J.M. Munro, S. Dwaraknath, A.M. Ganose, R.S. Kingsbury, M. Wen, J.-X. Shen, T.S. Mathis, A.D. Kaplan, K. Berket, J. Riebesell, J. George, A.S. Rosen, E.W.C. Spotte-Smith, M.J. McDermott, O.A. Cohen, A. Dunn, M.C. Kuner, G.-M. Rignanese, G. Petretto, D. Waroquiers, S.M. Griffin, J.B. Neaton, D.C. Chrzan, M. Asta, G. Hautier, S. Cholia, G. Ceder, S.P. Ong, A. Jain, K.A. Persson*, _Nature Materials_, 24, 1522–1532 (2025).",
     "url": "https://www.nature.com/articles/s41563-025-02272-0",
     "status": "published"
   },
   {
     "number": 35,
     "title": "Atomate2: Modular Workflows for Materials Science",
-    "citation": "A.M. Ganose*, H. Sahasrabuddhe, M. Asta, K. Beck, T. Biswas, A. Bonkowski, J. Bustamante, X. Chen, Y. Chiang, J. Clary, D. Chrzan, O. Cohen, C. Ertural, M. Gallant, J. George, S. Gerits, R. Goodall, R. Guha, G. Hautier, M. Horton, A.D. Kaplan, R.S. Kingsbury, M.C. Kuner, B. Li, X. Linn, M.J. McDermott, R.S. Mohanakrishnan, A.A. Naik, J.B. Neaton, K.A. Persson, G. Petretto, T.A.R. Purcell, F. Ricci, B. Rich, J. Riebesell, G.-M. Rignanese, A.S. Rosen, M. Scheffler, J. Schmidt, J.-X. Shen, A. Sobolev, R. Sundararaman, C. Tezak, V. Trinquet, J.B. Varley, D. Vigil-Fowler, D. Wang, D. Waroquiers, M. Wen, H. Yang, H. Zheng, J. Zheng, Z. Zhu, A. Jain*, _Digital Discovery_, 4, 1944–1973 (2025).",
+    "citation": "A.M. Ganose*, H. Sahasrabuddhe, M. Asta, K. Beck, T. Biswas, A. Bonkowski, J. Bustamante, X. Chen, Y. Chiang, D.C. Chrzan, J. Clary, O.A. Cohen, C. Ertural, M.C. Gallant, J. George, S. Gerits, R.E.A. Goodall, R.D. Guha, G. Hautier, M. Horton, T.J. Inizan, A.D. Kaplan, R.S. Kingsbury, M.C. Kuner, B. Li, X. Linn, M.J. McDermott, R.S. Mohanakrishnan, A.A. Naik, J.B. Neaton, S.M. Parmar, K.A. Persson, G. Petretto, T.A.R. Purcell, F. Ricci, B. Rich, J. Riebesell, G.-M. Rignanese, A.S. Rosen, M. Scheffler, J. Schmidt, J.-X. Shen, A. Sobolev, R. Sundararaman, C. Tezak, V. Trinquet, J.B. Varley, D. Vigil-Fowler, D. Wang, D. Waroquiers, M. Wen, H. Yang, H. Zheng, J. Zheng, Z. Zhu, A. Jain*, _Digital Discovery_, 4, 1944–1973 (2025).",
     "url": "https://doi.org/10.1039/D5DD00019J",
     "status": "published"
   },
@@ -154,7 +154,7 @@
   {
     "number": 29,
     "title": "cclib 2.0: An Updated Architecture for Interoperable Computational Chemistry",
-    "citation": "E. Berquist†, A. Dumi†, S. Upadhyay†, O.D. Abarbanel, M. Cho, S. Gaur, V. Hugo Cano Gil, G.R. Hutchinson, O.S. Lee, A.S. Rosen, S. Schamnad, F.S.S. Schneider, C. Steinmann, M. Stolyarchuk, J.E. Vanderzande, W. Zak, K.M. Langner*, _Journal of Chemical Physics_, 161, 042501 (2024).",
+    "citation": "E. Berquist†, A. Dumi†, S. Upadhyay†, O.D. Abarbanel, M. Cho, S. Gaur, R. Gil, G.R. Hutchison, O.S. Lee, A.S. Rosen, S. Schamnad, F.S.S. Schneider, C. Steinmann, M. Stolyarchuk, J.E. Vandezande, W. Zak, K.M. Langner*, _Journal of Chemical Physics_, 161, 042501 (2024).",
     "url": "https://doi.org/10.1063/5.0216778",
     "status": "published"
   },
@@ -175,7 +175,7 @@
   {
     "number": 26,
     "title": "Jobflow: Computational Workflows Made Simple",
-    "citation": "A.S. Rosen, M. Gallant, J. George, J. Riebesell, H. Sahasrabuddhe, J.-X. Shen, M. Wen, M.L. Evans, G. Petretto, D. Waroquiers, G.‑M. Rignanese, K.A. Persson, A. Jain, A.M. Ganose*, _Journal of Open Source Software_, 9, 5995 (2024).",
+    "citation": "A.S. Rosen, M. Gallant, J. George, J. Riebesell, H. Sahasrabuddhe, J.-X. Shen, M. Wen, M.L. Evans, G. Petretto, D. Waroquiers, G.-M. Rignanese, K.A. Persson, A. Jain, A.M. Ganose*, _Journal of Open Source Software_, 9, 5995 (2024).",
     "url": "https://doi.org/10.21105/joss.05995",
     "status": "published"
   },
@@ -210,14 +210,14 @@
   {
     "number": 21,
     "title": "Effect of Composition and Local Environment on CO2 Adsorption on Nickel and Magnesium Oxide Solid Solutions",
-    "citation": "A. Peng, A.S. Rosen, R.Q. Snurr*, H. Kung*, _Journal of Physical Chemistry C_, 126, 19705–19714 (2022).",
+    "citation": "A. Peng, A.S. Rosen, R.Q. Snurr*, H.H. Kung*, _Journal of Physical Chemistry C_, 126, 19705–19714 (2022).",
     "url": "https://doi.org/10.1021/acs.jpcc.2c05799",
     "status": "published"
   },
   {
     "number": 20,
     "title": "A Flexible and Scalable Scheme for Mixing Computed Formation Energies from Different Levels of Theory",
-    "citation": "R. Kingsbury, A.S. Rosen, A. Gupta, J. Munro, S.P. Ong, A. Jain, S. Dwaraknath, M.K. Horton, K.A. Persson*, _npj Computational Materials_, 8, 195 (2022).",
+    "citation": "R.S. Kingsbury, A.S. Rosen, A.S. Gupta, J.M. Munro, S.P. Ong, A. Jain, S. Dwaraknath, M.K. Horton, K.A. Persson*, _npj Computational Materials_, 8, 195 (2022).",
     "url": "https://doi.org/10.1038/s41524-022-00881-w",
     "status": "published"
   },
@@ -244,15 +244,15 @@
   },
   {
     "number": 16,
-    "title": "Fine‑Tuning a Robust Metal–Organic Framework Towards Enhanced Clean Energy Gas Storage",
-    "citation": "Z. Chen, M.R. Mian, S.‑J. Lee, H. Chen, X. Zhang, K.O. Kirlikovali, S. Shulda, P. Melix, A.S. Rosen, P.A. Parilla, T. Gennett, R.Q. Snurr, T. Islamoglu*, T. Yildirim*, O.K. Farha*, _Journal of the American Chemical Society_, 143, 18838–18843 (2021).",
+    "title": "Fine‑Tuning a Robust Metal–Organic Framework Toward Enhanced Clean Energy Gas Storage",
+    "citation": "Z. Chen, M.R. Mian, S.-J. Lee, H. Chen, X. Zhang, K.O. Kirlikovali, S. Shulda, P. Melix, A.S. Rosen, P.A. Parilla, T. Gennett, R.Q. Snurr, T. Islamoglu*, T. Yildirim*, O.K. Farha*, _Journal of the American Chemical Society_, 143, 18838–18843 (2021).",
     "url": "https://doi.org/10.1021/jacs.1c08749",
     "status": "published"
   },
   {
     "number": 15,
     "title": "Machine Learning the Quantum‑Chemical Properties of Metal–Organic Frameworks for Accelerated Materials Discovery",
-    "citation": "A.S. Rosen*, S.M. Iyer, D. Ray, Z. Yao, A. Aspuru‑Guzik, L. Gagliardi, J.M. Notestein, R.Q. Snurr, _Matter_, 4, 1578–1597 (2021). — Featured on the cover of _Matter_ and previewed in _Patterns_, 2, 100239 (2021).",
+    "citation": "A.S. Rosen*, S.M. Iyer, D. Ray, Z. Yao, A. Aspuru-Guzik, L. Gagliardi, J.M. Notestein, R.Q. Snurr, _Matter_, 4, 1578–1597 (2021). — Featured on the cover of _Matter_ and previewed in _Patterns_, 2, 100239 (2021).",
     "url": "https://doi.org/10.1016/j.matt.2021.02.015",
     "status": "published"
   },
@@ -266,7 +266,7 @@
   {
     "number": 13,
     "title": "Supramolecular Porous Assemblies of Atomically Precise Catalytically Active Cerium‑Based Clusters",
-    "citation": "M.C. Wasson, X. Zhang, K. Otake, A.S. Rosen, S. Alayoglu, M.D. Krzyaniak, Z. Chen, L.R. Redfern, L. Robison, F.A. Son, Y. Chen, T. Islamoglu, J.M. Notestein, R.Q. Snurr, M.R. Wasielewski, O.K. Farha*, _Chemistry of Materials_, 32, 8522–8529 (2020).",
+    "citation": "M.C. Wasson, X. Zhang, K.-I. Otake, A.S. Rosen, S. Alayoglu, M.D. Krzyaniak, Z. Chen, L.R. Redfern, L. Robison, F.A. Son, Y. Chen, T. Islamoglu, J.M. Notestein, R.Q. Snurr, M.R. Wasielewski, O.K. Farha*, _Chemistry of Materials_, 32, 8522–8529 (2020).",
     "url": "https://doi.org/10.1021/acs.chemmater.0c02740",
     "status": "published"
   },
@@ -301,7 +301,7 @@
   {
     "number": 8,
     "title": "Identification Schemes for Metal–Organic Frameworks to Enable Rapid Search and Cheminformatics Analysis",
-    "citation": "B.J. Bucior, A.S. Rosen, M. Haranczyk, Z. Yao, M.E. Ziebel, O.K. Farha, J.T. Hupp, J.I. Siepmann, A. Aspuru‑Guzik, R.Q. Snurr*, _Crystal Growth and Design_, 19, 6682–6697 (2019).",
+    "citation": "B.J. Bucior, A.S. Rosen, M. Haranczyk, Z. Yao, M.E. Ziebel, O.K. Farha, J.T. Hupp, J.I. Siepmann, A. Aspuru-Guzik, R.Q. Snurr*, _Crystal Growth & Design_, 19, 6682–6697 (2019).",
     "url": "https://doi.org/10.1021/acs.cgd.9b01050",
     "status": "published"
   },
@@ -336,7 +336,7 @@
   {
     "number": 3,
     "title": "Correlations, Trends and Potential Biases among Publicly Accessible Web‑Based Student Evaluations of Teaching: A Large-Scale Study of RateMyProfessors.com Data",
-    "citation": "A.S. Rosen*, _Assessment and Evaluation in Higher Education_, 43, 31–44 (2018). — Featured in Inside Higher Ed and VOA News",
+    "citation": "A.S. Rosen*, _Assessment & Evaluation in Higher Education_, 43, 31–44 (2018). — Featured in Inside Higher Ed and VOA News",
     "url": "https://doi.org/10.1080/02602938.2016.1276155",
     "status": "published"
   },
