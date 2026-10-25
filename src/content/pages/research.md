@@ -13,7 +13,7 @@ crosscutting: Across both areas, we develop the datasets, benchmarks, machine
   learning models, and open-source software needed for accurate and reliable
   simulation across the computational materials science community.
 areas:
-  - label: Research area 01
+  - label: Research area 1
     title: Electronic structure and emergent reactivity
     paragraphs:
       - Our group uses quantum-mechanical simulations and machine learning to
@@ -28,7 +28,7 @@ areas:
     imageAlt: Electronic states in a porous solid-state material
     theme: light
     imageFirst: true
-  - label: Research area 02
+  - label: Research area 2
     title: Stability and decomposition
     paragraphs:
       - We are developing and applying computational methods to identify what
@@ -43,7 +43,7 @@ areas:
     imageAlt: Atomistic simulation of solid-state material stability
     theme: dark
     imageFirst: false
-  - label: Crosscutting area
+  - label: Methods and software
     title: Machine-learned interatomic potentials
     paragraphs:
       - Machine-learned interatomic potentials extend quantum-mechanical

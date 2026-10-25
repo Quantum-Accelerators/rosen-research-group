@@ -30,26 +30,23 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     display: grid;
     place-items: center;
     padding: clamp(3rem, 8vw, 7rem) 1.25rem;
-    background:
-      radial-gradient(circle at 85% 10%, rgba(232, 126, 42, 0.18), transparent 30rem),
-      #f5f2eb;
+    background: var(--paper);
   }
 
   .cms-card {
     width: min(100%, 48rem);
     padding: clamp(2rem, 6vw, 4.5rem);
     background: #fff;
-    border-top: 0.4rem solid #e87722;
-    box-shadow: 0 1.5rem 4rem rgba(18, 31, 43, 0.12);
+    border: 1px solid var(--line);
+    border-radius: 4px;
   }
 
   .cms-eyebrow {
     margin: 0 0 1rem;
     color: #a34d0d;
     font-size: 0.78rem;
-    font-weight: 750;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.03em;
   }
 
   h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 4.5rem); line-height: 0.98; }
@@ -66,7 +63,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     text-decoration: none;
   }
 
-  .cms-button:hover { background: #e87722; }
+  .cms-button:hover { background: #84410a; }
   .cms-steps { margin: 2.25rem 0 0; padding-left: 1.25rem; line-height: 1.9; }
   .cms-note { margin: 1.5rem 0 0; padding-top: 1.25rem; border-top: 1px solid #d9d4ca; color: #59636c; font-size: 0.92rem; }
 </style>
