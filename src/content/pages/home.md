@@ -6,7 +6,7 @@ heroIntro: "We use quantum-mechanical simulations and machine learning to uncove
 researchEyebrow: "Research program"
 researchTitle: "Reactivity and stability in solid-state materials."
 researchText: "We study how unusual electronic configurations create new reactivity and what governs material stability and decomposition under realistic conditions."
-areasTitle: "Research areas"
+areasTitle: "Core research areas"
 areas:
   - label: "Research Question 01"
     title: "Electronic structure and emergent reactivity"
@@ -17,7 +17,7 @@ areas:
   - label: "Crosscutting Effort"
     title: "Machine-learned interatomic potentials"
     text: "We build datasets, benchmarks, models, and open-source software that make machine-learned interatomic potentials more reliable."
-latestTitle: "News from the group"
+latestTitle: "News from the group."
 joinTitle: "Work with us."
 joinText: "We welcome prospective graduate students, postdoctoral researchers, and Princeton undergraduates interested in chemical engineering, materials science, and machine learning."
 ---
