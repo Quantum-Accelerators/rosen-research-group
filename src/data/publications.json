@@ -1,47 +1,47 @@
 [
    {
-    "number": 51,
+    "number": 52,
     "title": "Pymatgen: 15 Years of Community Growth, New Functionality, and Future Prospects",
     "citation": "J. George†, M.K. Horton†, A.D. Kaplan†, S.R. Kavanagh†, J. Riebesell†, A.S. Rosen†, H. Yang†, F. Adams, M. Amachraa, O. Andriuc, O.A. Ashour, S. Bajaj, E. Banyas, L. Barroso-Luque, K. Berket, N. Bernstein, A. Bhardwaj, A.H.U. Bhatti, S.M. Blau, B. Bocklund, A. Bonkowski, D. Broberg, G. Brunin, K. Bystrom, C.A. Cardot, R. Chang, C. Chen, W. Chen, X. Chen, Y. Chiang, K. Choudhary, O.A. Cohen, M.D. Costa, S.T. Dacek III, M. de Jong, T. Demeyere, A.K. Dozier, A. Dunn, S. Dwaraknath, M.T. Dylla, K. Eimre, A.R. Epstein, C. Ertural, M. Esters, M.L. Evans, J. Falke, A. Fekete, B. Field, A. Fonari, N.C. Frey, D.W. Gaines II, A.M. Ganose, M. Giantomassi, R.E.A. Goodall, P.-F. Gostin, A. Gupta, V.-A. Ha, G. Hautier, N. Heinsdorf, M.F. Herbst, T. Hou, P. Huck, Y. Ikeda, A.J. Jackson, S. Jayaraman, F.R. Kearns, S. Kim, R.S. Kingsbury, A.M. Krajewski, Y. Kumagai, M.C. Kuner, W.T. Laderer, W. Li, X.-G. Li, Y.H. Liang, H. Liu, K. Liu, M. Liu, A. Lutfi, O. Marchand, M.J. McDermott, B.K. Medasani, F. Meng, K.D. Miller, H. Miranda, R.S. Mohanakrishnan, J.H. Montoya, G.C. Moore, B.J. Morgan, J.M. Munro, K. Muraoka, A.A. Naik, W. O'Leary, A. Onwuli, J. Park, D.F. Parsons, K. Pei, G. Petretto, T.A.R. Purcell, J. Qi, X. Qu, I. Radchenko, N.N. Rajput, F. Ricci, B.S. Rich, W.D. Richards, G.-M. Rignanese, X. Ruan, G. Salvato Vallverdu, J. Schmidt, J.-X. Shen, R. Shimogawa, K. Shinohara, A.K. Singh, E. Sivonxay, S. Smeets, T.E. Smidt, A. Sobolev, E.W.C. Spotte-Smith, C. Stihl, W. Sun, J.D. Sundberg, Y. Suzuki, L. Talirz, H. Tang, E. Taw, C. Tezak, F. Therrien, S.D. Thiel, S.B. Torrisi, M.E. Turiansky, K. Ueltzen, M.J. van Setten, J. Vieten, S. Vijay, N. Wagner, F. Wan, A. Wang, J. Wang, Z. Wang, L. Ward, T. Warford, D. Waroquiers, M. Wen, O. Weser, N. Winner, D. Winston, M. Wolloch, B.M. Wood, R. Woods-Robinson, Y. Xiao, Y. Xie, F. Yalcin, R.X. Yang, W. Ye, P. Zarabadi-Poor, J. Zeng, H. Zhao, K. Zheng, H. Zhu, Z. Zhu, N.E.R. Zimmermann, D. Zügner, K.A. Persson, A. Jain, S.P. Ong*. arXiv:2610.23538 (2026)",
     "url": "https://arxiv.org/abs/2610.23538",
     "status": "submitted"
   },
   {
-    "number": 50,
+    "number": 51,
     "title": "Democratizing Atomistic Simulation Workflows for the AI Era with the Quantum Accelerator",
     "citation": "A.S. Rosen*, N. Goyal, B. Ayers, V. Bansal, J.H. Baratta, S.M. Blau, Y. Chiang, S. Choi, O.A. Cohen, B. Dallmann, T. Demeyere, W. Engler, Y.-W. Fang, I. Furrick, E. Huerta, H. Kim, H. Kondo, A. Kumar, J. Kwon, O. Mamun, C.B. Musgrave III, H. Oliaei, A. Saha, D. Sarpa, B.X. Shi, Y. Shi, X. Wang, R.B. Wexler. arXiv:2609.33823 (2026).",
     "url": "https://arxiv.org/abs/2609.33823",
     "status": "submitted"
   },
   {
-    "number": 49,
+    "number": 50,
     "title": "Towards a Metal–Organic Framework with Pore-Confined Electrons",
     "citation": "J.H. Baratta, A.S. Rosen*. arXiv:2609.13939 (2026).",
     "url": "https://arxiv.org/abs/2609.13939", 
     "status": "submitted"
   },
   {
-    "number": 48,
+    "number": 49,
     "title": "Layered Double Hydroxides with Interlayer Electrons Activate Strong Chemical Bonds",
     "citation": "Y. Shi, A.S. Rosen*. ChemRxiv (2026).",
     "url": "https://doi.org/10.26434/chemrxiv.15008487/v1",
     "status": "submitted"
   },
   {
-    "number": 47,
+    "number": 48,
     "title": "Agentic Laboratories of the Future: Towards World Models for Scientific Discovery",
     "citation": "K. Fu, L. Lyu, S. Li, S. Huang, S. Xu, J. Zheng, X. Liu, S. Liu, G. Barbone, Y. Liu, L.J. Fan, Y. Zhu, M. Davis, K. Jiang, S. Yang, X. Kuang, Y. Luo, F. Dominici, C. Curtis, X. Qiu, A. Abadie, C. Uhler, M. Tang, J.C. Wu, J. Li, J. Toettcher, J.L. Avalos, R. Rojansky, H. Zhao, J.P.A. Ioannidis, B. Rand, E. Lundberg, A.S. Rosen, Z. Liu, S. Kelley, C. Xiong, B.E. Engelhardt, T. Montine, C.V. Theodoris, K.S. Pollard, F. Li, X. Zhang, T. Peng, D. Basov, X. Qian, E. Xing, A. Yazdani, J. Leskovec, N. Shah, Z. Bao, P. Perona, S. Wu, C. Brangwynne, L. Cong*, M. Wang*. Preprints (2026).",
     "url": "https://www.preprints.org/manuscript/202608.0213",
     "status": "submitted"
   },
   {
-    "number": 46,
+    "number": 45,
     "title": "Designing High-Valent Copper-Oxo Complexes Through Ligand Engineering",
     "citation": "K. Yao†, X. Wang†, S. Iyer, A.S. Rosen*, R.Q. Snurr*, _Journal of Physical Chemistry A_, in press.",
     "status": "published"
   },
   {
-    "number": 45,
+    "number": 46,
     "title": "The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models",
     "citation": "D.S. Levine=, M. Shuaibi=, E.W.C. Spotte-Smith, M.G. Taylor, M.R. Hasyim, K. Michel, I. Batatia, G. Csányi, M. Dzamba, P. Eastman, N.C. Frey, X. Fu, V. Gharakhanyan, A.S. Krishnapriyan, J.A. Rackers, S. Raja, A. Rizvi, A.S. Rosen, Z. Ulissi, S. Vargas, C.L. Zitnick*, S.M. Blau*, B.M. Wood*. arXiv:2505.08762 (2025).",
     "url": "https://arxiv.org/abs/2505.08762",
