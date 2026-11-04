@@ -45,7 +45,6 @@ content:
             list:
               collapsible: { collapsed: true, summary: "{title}" }
             fields:
-              - { name: label, type: string }
               - { name: title, type: string }
               - { name: text, type: text }
           - { name: latestTitle, label: News heading, type: string }
