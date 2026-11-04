@@ -15,24 +15,24 @@
   },
   {
     "number": 49,
-    "title": "Towards a Metal–Organic Framework with Pore-Confined Electrons",
-    "citation": "J.H. Baratta, A.S. Rosen*. arXiv:2609.13939 (2026).",
-    "url": "https://arxiv.org/abs/2609.13939",
-    "status": "submitted"
-  },
-  {
-    "number": 48,
     "title": "Agentic Laboratories of the Future: Towards World Models for Scientific Discovery",
     "citation": "K. Fu, L. Lyu, S. Li, S. Huang, S. Xu, J. Zheng, X. Liu, S. Liu, G. Barbone, Y. Liu, L.J. Fan, Y. Zhu, M. Davis, K. Jiang, S. Yang, X. Kuang, Y. Luo, F. Dominici, C. Curtis, X. Qiu, A. Abadie, C. Uhler, M. Tang, J.C. Wu, J. Li, J. Toettcher, J.L. Avalos, R. Rojansky, H. Zhao, J.P.A. Ioannidis, B. Rand, E. Lundberg, A.S. Rosen, Z. Liu, S. Kelley, C. Xiong, B.E. Engelhardt, T. Montine, C.V. Theodoris, K.S. Pollard, F. Li, X. Zhang, T. Peng, D. Basov, X. Qian, E. Xing, A. Yazdani, J. Leskovec, N. Shah, Z. Bao, P. Perona, S. Wu, C. Brangwynne, L. Cong*, M. Wang*. Preprints (2026).",
     "url": "https://www.preprints.org/manuscript/202608.0213",
     "status": "submitted"
   },
   {
-    "number": 47,
+    "number": 48,
     "title": "The Open Molecules 2025 (OMol25) Dataset, Evaluations, and Models",
     "citation": "D.S. Levine=, M. Shuaibi=, E.W.C. Spotte-Smith, M.G. Taylor, M.R. Hasyim, K. Michel, I. Batatia, G. Csányi, M. Dzamba, P. Eastman, N.C. Frey, X. Fu, V. Gharakhanyan, A.S. Krishnapriyan, J.A. Rackers, S. Raja, A. Rizvi, A.S. Rosen, Z. Ulissi, S. Vargas, C.L. Zitnick*, S.M. Blau*, B.M. Wood*. arXiv:2505.08762 (2025).",
     "url": "https://arxiv.org/abs/2505.08762",
     "status": "submitted"
+  },
+  {
+    "number": 47,
+    "title": "Towards a Metal–Organic Framework with Pore-Confined Electrons",
+    "citation": "J.H. Baratta, A.S. Rosen*, _Matter_, in press.",
+    "url": "https://arxiv.org/abs/2609.13939",
+    "status": "published"
   },
   {
     "number": 46,
