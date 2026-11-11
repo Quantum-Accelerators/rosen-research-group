@@ -14,7 +14,7 @@ The editor covers page copy, group members, news, publications, opportunities, n
 
 ### Detailed editing
 
-The site uses [Astro](https://astro.build/) and requires Node.js 22.12 or newer.
+The site uses [Astro](https://astro.build/) and requires Node.js 22.23.4 or newer. CI and deployment both build with the latest Node.js release.
 
 ```sh
 npm ci
@@ -44,7 +44,6 @@ Most updates do not require editing Astro components:
 - `public/` contains images and downloadable documents.
 
 Run `npm run build` after editing content to catch invalid data, broken imports, and rendering errors.
-
 
 ## Pull requests and previews
 
