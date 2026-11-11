@@ -17,6 +17,12 @@
     "date": "Nov. 9, 2026",
     "text": "Andrew, Blake, Julia, and Naisargi present their work at AIChE. Congratulations to Blake, Julia, and Naisargi on their first AIChE presentations!"
   },
+    {
+    "title": "Anthony competes in the AIChE Chem-E-Car Competition Finals",
+    "path": "/news/2026/anthony-competes-chem-e-car",
+    "date": "Nov. 8, 2026",
+    "text": "Anthony competed in the 2026 AIChE Chem-E-Car Competition Finals and finished in 9th place. Great job!"
+  },
   {
     "title": "Andrew gives a talk at Universal Display Corporation",
     "path": "/news/2026/andrew-universal-display-corporation-talk",
@@ -60,16 +66,16 @@
     "text": "Jia Cheng “Anthony” Shen (Undergraduate, Class of 2028) has joined the group!"
   },
   {
-    "title": "Sihoon presents his work at ACS Fall 2026",
-    "path": "/news/2026/sihoon-presents-his-work-acs-fall-2026",
-    "date": "Aug. 25, 2026",
-    "text": "Sihoon gave an oral presentation at ACS Fall 2026."
-  },
-  {
     "title": "Andrew receives a commendation for outstanding teaching",
     "path": "/news/2026/commendation-cbe423",
     "date": "Aug. 27, 2026",
     "text": "Andrew receives a commendation for outstanding teaching for CBE/MSE 423: Computational Materials Design and Discovery."
+  },
+  {
+    "title": "Sihoon presents his work at ACS Fall 2026",
+    "path": "/news/2026/sihoon-presents-his-work-acs-fall-2026",
+    "date": "Aug. 25, 2026",
+    "text": "Sihoon gave an oral presentation at ACS Fall 2026."
   },
   {
     "title": "The group receives an AI4Sci NERSC Award",
